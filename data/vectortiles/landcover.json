@@ -1,0 +1,30 @@
+{
+  "format": "pbf",
+  "name": "Landcover",
+  "id": "landcover",
+  "center": [
+    8.4773,
+    47.0879,
+    9
+  ],
+  "maxzoom": 9,
+  "minzoom": 0,
+  "version": "2.2",
+  "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+  "description": "Landcover with six classes.",
+  "vector_layers": [
+    {
+      "id": "globallandcover",
+      "fields": {
+        "class": "Crop, grass, scrub, tree, forest, snow."
+      },
+      "maxzoom": 9,
+      "minzoom": 0,
+      "description": "Landcover with six classes."
+    }
+  ],
+  "tilejson": "2.0.0",
+  "tiles": [
+    "http://127.0.0.1:3000/data/vectortiles/landcover/{z}/{x}/{y}.pbf"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "format": "pbf",
+  "name": "Contours",
+  "id": "contours",
+  "type": "overlay",
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    8.4773,
+    47.0879,
+    10
+  ],
+  "maxzoom": 14,
+  "minzoom": 9,
+  "version": "v1.2",
+  "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+  "description": "Contour lines from https://openmaptiles.org",
+  "vector_layers": [
+    {
+      "id": "contour",
+      "fields": {
+        "height": "Elevation in meters (10m resolution)",
+        "nth_line": "Marks every other, 2nd, 5th or 10th line"
+      },
+      "maxzoom": 14,
+      "minzoom": 9,
+      "description": "Contour lines with height and additional information for index line styling."
+    }
+  ],
+  "tilejson": "2.0.0",
+  "tiles": [
+    "http://127.0.0.1:3000/data/vectortiles/contours/{z}/{x}/{y}.pbf"
+  ]
+}

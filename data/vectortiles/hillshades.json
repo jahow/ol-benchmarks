@@ -1,0 +1,27 @@
+{
+  "format": "png",
+  "name": "Hillshades",
+  "type": "overlay",
+  "scale": "1",
+  "bounds": [
+    -179.98067,
+    -57.000384,
+    179.972533,
+    72.000695
+  ],
+  "center": [
+    8.5481,
+    47.3718,
+    6
+  ],
+  "maxzoom": 12,
+  "minzoom": 0,
+  "profile": "mercator",
+  "version": "1",
+  "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+  "description": "Hillshades from http://openmaptiles.org",
+  "tilejson": "2.0.0",
+  "tiles": [
+    "http://127.0.0.1:3000/data/vectortiles/hillshades/{z}/{x}/{y}.png"
+  ]
+}
