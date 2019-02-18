@@ -167,9 +167,9 @@ async function renderPage(page, entry, options) {
   options.log.info(`${entry}: Average frame time: ${printTime(totalFrameTime / flatFrameTimes.length)}ms`);
 
   const results = {
-    'fps_avg': printTime(totalFrameTime / flatFrameTimes.length),
-    'fps_max': printTime(maximumFrameTime),
-    'fps_total': printTime(totalFrameTime),
+    'frame_avg': printTime(totalFrameTime / flatFrameTimes.length),
+    'frame_max': printTime(maximumFrameTime),
+    'frame_total': printTime(totalFrameTime),
     'heap_used': (metrics.JSHeapUsedSize / 1024).toFixed(1),
     'heap_total': (metrics.JSHeapTotalSize / 1024).toFixed(1)
   };
