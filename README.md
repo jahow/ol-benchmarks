@@ -11,8 +11,6 @@ Options:
   --port            The port for serving rendering cases [nombre] [défaut: 3000]
   --timeout         The timeout for loading pages (in milliseconds)
                                                         [nombre] [défaut: 60000]
-  --report          Generate an HTML report called benchmark-report.html in the
-                    working dir                        [booléen] [défaut: false]
   --iterations      Iteration count                        [nombre] [défaut: 10]
   --interactive     Leaves the server running for debugging in a browser
                                                        [booléen] [défaut: false]

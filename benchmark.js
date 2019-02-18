@@ -164,7 +164,6 @@ async function renderPage(page, entry, options) {
 
   // printing the report
   const metrics = await page.metrics();
-  const screenshot = await page.screenshot({encoding: 'base64'});
   const totalFrameTime = flatFrameTimes.reduce((prev, curr) => prev + curr, 0);
   const maximumFrameTime = frameTimes.reduce((prev, times) => {
     return times.reduce((prev, curr) => Math.max(curr, prev), 0) / frameTimes.length + prev;
@@ -185,44 +184,11 @@ async function renderPage(page, entry, options) {
       options.log.error(err);
     }
   });
-
-  return `
-<html>
-  <body>
-    <h3>${entry}</h3>
-    <div><img src="data:image/png;base64,${screenshot}"/></div>
-    <ul>
-      <li>Average frame time: ${printTime(totalFrameTime / flatFrameTimes.length)}ms</li>
-      <li>Maximum frame time: ${printTime(maximumFrameTime)}ms</li>
-      <li>Total frame time: ${printTime(totalFrameTime)}ms</li>
-      <li>Heap used: ${(metrics.JSHeapUsedSize / 1024).toFixed(1)}ko</li>
-      <li>Total heap: ${(metrics.JSHeapTotalSize / 1024).toFixed(1)}ko</li>
-    </ul>
-  </body>
-</html>`;
 }
 
 async function renderEach(page, entries, options) {
-  let report = '';
   for (const entry of entries) {
-    report += await renderPage(page, entry, options);
-  }
-
-  if (options.report) {
-    const markup = `
-<html>
-  <body>
-    ${report}
-  </body>
-</html>`;
-    const reportPath = path.join(__dirname, 'benchmark-report.html');
-    fs.writeFile(reportPath, markup, (err) => {
-      if (err) {
-        options.log.error(err);
-      } else {
-        options.log.debug('report created', reportPath);
-      }
-    });
+    await renderPage(page, entry, options);
   }
 }
 
@@ -287,11 +253,6 @@ if (require.main === module) {
     describe: 'The timeout for loading pages (in milliseconds)',
     type: 'number',
     default: 60000
-  }).
-  option('report', {
-    describe: 'Generate an HTML report called benchmark-report.html in the working dir',
-    type: 'boolean',
-    default: false
   }).
   option('iterations', {
     describe: 'Iteration count',
