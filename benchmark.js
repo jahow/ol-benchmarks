@@ -5,7 +5,6 @@ const config = require('./webpack.config');
 const webpackMiddleware = require('webpack-dev-middleware');
 const http = require('http');
 const path = require('path');
-const fs = require('fs');
 const yargs = require('yargs');
 const log = require('loglevelnext');
 const serveStatic = require('serve-static');
@@ -112,15 +111,10 @@ function printTime(time) {
   return (time * 1000).toFixed(1);
 }
 
-function getReportPath(entry) {
-  return path.join(__dirname, path.dirname(entry), 'benchmark.json');
-}
-
 async function renderPage(page, entry, options) {
   options.log.debug('navigating', entry);
 
   await page.goto(`http://${options.host}:${options.port}${getHref(entry)}`, {waitUntil: 'load'});
-  await page.evaluate('window.benchmarking = true');
   await new Promise(resolve => setTimeout(resolve, 1000));
 
   // fps counter; frameTimes is an array of array (one array for each iteration)
@@ -135,12 +129,12 @@ async function renderPage(page, entry, options) {
     }
 
     const time = metrics.metrics.Timestamp;
-    if (metrics.title === 'newframe') {
-      if (refTime > 0) {
-        frameTimes[frameTimes.length - 1].push(time - refTime);
-        flatFrameTimes.push(time - refTime);
-      }
+    if (metrics.title === 'beginFrame') {
       refTime = time;
+    } else if (metrics.title === 'endFrame') {
+      frameTimes[frameTimes.length - 1].push(time - refTime);
+      flatFrameTimes.push(time - refTime);
+      options.log.debug(`frame time: ${(time - refTime) * 1000}ms`);
     }
   });
 
@@ -179,11 +173,6 @@ async function renderPage(page, entry, options) {
     'heap_used': (metrics.JSHeapUsedSize / 1024).toFixed(1),
     'heap_total': (metrics.JSHeapTotalSize / 1024).toFixed(1)
   };
-  fs.writeFile(getReportPath(entry), JSON.stringify(results, null, 2), (err) => {
-    if (err) {
-      options.log.error(err);
-    }
-  });
 
   return results;
 }
@@ -224,9 +213,16 @@ async function render(entries, options) {
   }
 }
 
-async function main(entries, options) {
+async function main(options) {
+  const entries = Object.keys(config.entry).filter(key => key.startsWith('benchmarks')).map(key => config.entry[key]);
+
   if (!options.interactive && entries.length === 0) {
     return;
+  }
+
+  // create logger & store it on the options object
+  if (!options.log) {
+    options.log = log.create({name: 'benchmarking', level: options.logLevel});
   }
 
   const done = await serve(options);
@@ -286,11 +282,7 @@ if (require.main === module) {
   }).
   parse();
 
-  const entries = Object.keys(config.entry).filter(key => key.startsWith('benchmarks')).map(key => config.entry[key]);
-
-  options.log = log.create({name: 'benchmarking', level: options.logLevel});
-
-  main(entries, options).catch(err => {
+  main(options).catch(err => {
     options.log.error(err.message);
     process.exit(1);
   });

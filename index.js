@@ -2,7 +2,6 @@ const simplegit = require('simple-git/promise');
 const path = require('path');
 const fs = require('fs');
 
-const log = require('loglevelnext');
 const main = require('./benchmark').main;
 
 const olGit = simplegit(path.join(__dirname, 'openlayers'));
@@ -13,18 +12,12 @@ const logEnd = 'master';
 const resultData = {};
 const resultFilePath = path.join(__dirname, 'benchmark-data.json');
 
-const benchmarkDirs = fs.readdirSync(path.join(__dirname, 'benchmarks'));
-const benchmarkEntries = [];
-benchmarkDirs.forEach(c => {
-  benchmarkEntries.push(`./benchmarks/${c}/main.js`);
-});
-
 const benchmarkOptions = {
   host: '127.0.0.1',
   port: 3000,
   iterations: 10,
   timeout: '60000',
-  log: log.create({name: 'benchmarking', level: 'error'})
+  logLevel: 'error'
 };
 
 olGit.log({
@@ -42,7 +35,7 @@ olGit.log({
     for (let hash in resultData) {
       console.log(`Running benchmarks for commit ${hash}...`);
       await olGit.reset([hash, '--hard']).then(async () => {
-        resultData[hash].benchmarks = await main(benchmarkEntries, benchmarkOptions);
+        resultData[hash].benchmarks = await main(benchmarkOptions);
       }, console.error);
     }
 

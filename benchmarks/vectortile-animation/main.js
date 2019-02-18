@@ -12,9 +12,17 @@ apply('map', '/data/vectortiles/style.json').then((map) => {
   map.getView().setCenter(center);
   map.getView().setZoom(12);
 
-  map.on('postrender', () => {
-    console.timeStamp('newframe');
-  });
+  // overwrite private methods to expose timing
+  const originalRenderFrame = map.renderFrame_;
+  map.renderFrame_ = function (time) {
+    console.timeStamp('beginFrame');
+    originalRenderFrame.call(map, arguments);
+  };
+  const originalPostRender = map.handlePostRender;
+  map.handlePostRender = () => {
+    originalPostRender.call(map, arguments);
+    console.timeStamp('endFrame');
+  };
 
   window.startIteration = () => {
     if (map.getLayers().getLength()) {
