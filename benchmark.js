@@ -131,10 +131,9 @@ async function renderPage(page, entry, options) {
     const time = metrics.metrics.Timestamp;
     if (metrics.title === 'beginFrame') {
       refTime = time;
-    } else if (metrics.title === 'endFrame') {
+    } else if (metrics.title === 'endFrame' && frameTimes.length && refTime > 0) {
       frameTimes[frameTimes.length - 1].push(time - refTime);
       flatFrameTimes.push(time - refTime);
-      options.log.debug(`frame time: ${(time - refTime) * 1000}ms`);
     }
   });
 
