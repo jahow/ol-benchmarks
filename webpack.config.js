@@ -13,5 +13,10 @@ module.exports = {
   context: __dirname,
   target: 'web',
   entry: entry,
-  devtool: 'source-map'
+  devtool: 'source-map',
+  resolve: {
+    alias: {
+      'ol': path.resolve(__dirname, 'openlayers', 'src', 'ol')
+    }
+  }
 };

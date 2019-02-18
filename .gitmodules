@@ -1,0 +1,6 @@
+[submodule "openlayers"]
+	path = openlayers
+	url = https://www.github.com/openlayers/openlayers
+[submodule "ol-mapbox-style"]
+	path = ol-mapbox-style
+	url = https://www.github.com/openlayers/ol-mapbox-style
