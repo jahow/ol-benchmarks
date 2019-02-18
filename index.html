@@ -1,0 +1,160 @@
+<html>
+
+<head>
+  <title>OpenLayers Benchmarks</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <style>
+    svg#root {
+      width: calc(100% - 20px);
+      height: 250px;
+      margin: 10px;
+      position: relative;
+    }
+
+    #tooltip {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.65);
+      position: absolute;
+      padding: 4px;
+      font-size: 12px;
+      font-family: monospace;
+      max-width: 300px;
+    }
+    #tooltip a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <svg id="root"></svg>
+  <script>
+    var el = document.getElementById('root');
+
+    // TODO: iterate over all keys
+    var benchmarkKey = './benchmarks/vectortile-animation/main.js';
+
+    var tooltip = d3.select('body')
+      .append('div')
+      .attr('id', 'tooltip')
+      .style('display', 'none')
+      .on('mouseleave', function () {
+        tooltip.style('display', 'none');
+      });
+
+    function drawChart(data) {
+      var margin = 20;
+      var width = el.getBoundingClientRect().width;
+      var height = el.getBoundingClientRect().height;
+
+      var g = d3.select('svg#root')
+        .attr('width', width)
+        .attr('height', height)
+        .append('g');
+
+      var scaleX = d3.scaleTime().rangeRound([margin, width]);
+      var scaleY = d3.scaleLinear().rangeRound([height - margin, 0]);
+      scaleX.domain(d3.extent(data, function (d) {
+        return new Date(d.date)
+      }));
+      scaleY.domain([0, 60]);
+
+      g.append('g')
+        .attr('transform', 'translate(0,' + (height - margin) + ')')
+        .call(d3.axisBottom(scaleX));
+      g.append('g')
+        .attr('transform', 'translate(' + margin + ',0)')
+        .call(d3.axisLeft(scaleY));
+
+      var lineAverage = d3.line()
+        .x(function (d) {
+          return scaleX(new Date(d.date));
+        })
+        .y(function (d) {
+          return scaleY(parseFloat(d.benchmarks[benchmarkKey].frame_avg));
+        });
+      var lineMax = d3.line()
+        .x(function (d) {
+          return scaleX(new Date(d.date));
+        })
+        .y(function (d) {
+          return scaleY(parseFloat(d.benchmarks[benchmarkKey].frame_max));
+        });
+
+      g.append('path')
+        .datum(data)
+        .attr('fill', 'none')
+        .attr('stroke', 'steelblue')
+        .attr('stroke-linejoin', 'round')
+        .attr('stroke-linecap', 'round')
+        .attr('stroke-width', 1.5)
+        .attr('d', lineAverage);
+
+      g.append('path')
+        .datum(data)
+        .attr('fill', 'none')
+        .attr('stroke', 'orange')
+        .attr('stroke-linejoin', 'round')
+        .attr('stroke-linecap', 'round')
+        .attr('stroke-width', 1.5)
+        .attr('d', lineMax);
+
+      var dotPairs = g.selectAll('.dots')
+        .data(data)
+        .enter()
+        .append('g')
+        .attr('class', 'dots');
+
+      dotPairs.append('circle')
+        .attr('class', 'avg')
+        .attr('r', 5)
+        .attr('fill', 'steelblue')
+        .attr("cx", function (d) {
+          return scaleX(new Date(d.date));
+        })
+        .attr("cy", function (d) {
+          return scaleY(parseFloat(d.benchmarks[benchmarkKey].frame_avg));
+        });
+      dotPairs.append('circle')
+        .attr('class', 'max')
+        .attr('r', 5)
+        .attr('fill', 'orange')
+        .attr("cx", function (d) {
+          return scaleX(new Date(d.date));
+        })
+        .attr("cy", function (d) {
+          return scaleY(parseFloat(d.benchmarks[benchmarkKey].frame_max));
+        });
+
+      g.selectAll('.dots > circle')
+        .on('mouseover', function () {
+          tooltip.style('display', null);
+        })
+        .on('mousemove', function (d) {
+          // tooltip content
+          var key = this.classList.contains('avg') ? 'frame_avg' : 'frame_max';
+          var text = d.message + '<br>' +
+            ' > average: ' + d.benchmarks[benchmarkKey].frame_avg + 'ms<br>' +
+            ' > max: ' + d.benchmarks[benchmarkKey].frame_max + 'ms<br>' +
+            '<a href="https://github.com/openlayers/openlayers/commit/' + d.hash + '">link to commit</a><br>';
+          var left = scaleX(new Date(d.date)) + margin;
+          var top = scaleY(parseFloat(d.benchmarks[benchmarkKey][key])) + margin;
+
+          tooltip.html(text);
+          tooltip.style('left', left + 'px');
+          tooltip.style('top', top + 'px');
+        });
+    }
+
+    fetch('/benchmark-data.json')
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        const array = Object.keys(data).map(function (key) { return data[key]; });
+        drawChart(array);
+      });
+  </script>
+</body>
+
+</html>
