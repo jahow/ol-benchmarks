@@ -5,9 +5,10 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <style>
     svg#root {
-      width: calc(100% - 20px);
-      height: 250px;
+      width: 2000px;
+      height: 500px;
       margin: 10px;
+      margin-right: 300px;
       position: relative;
     }
 
@@ -18,7 +19,7 @@
       padding: 4px;
       font-size: 12px;
       font-family: monospace;
-      max-width: 300px;
+      width: 300px;
     }
     #tooltip a {
       color: white;
@@ -43,7 +44,7 @@
       });
 
     function drawChart(data) {
-      var margin = 20;
+      var margin = 40;
       var width = el.getBoundingClientRect().width;
       var height = el.getBoundingClientRect().height;
 
@@ -57,7 +58,7 @@
       scaleX.domain(d3.extent(data, function (d) {
         return new Date(d.date)
       }));
-      scaleY.domain([0, 60]);
+      scaleY.domain([0, 700]);
 
       g.append('g')
         .attr('transform', 'translate(0,' + (height - margin) + ')')
