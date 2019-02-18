@@ -184,12 +184,8 @@ async function renderPage(page, entry, options) {
       options.log.error(err);
     }
   });
-}
 
-async function renderEach(page, entries, options) {
-  for (const entry of entries) {
-    await renderPage(page, entry, options);
-  }
+  return results;
 }
 
 async function render(entries, options) {
@@ -216,7 +212,13 @@ async function render(entries, options) {
     page.setDefaultNavigationTimeout(options.timeout);
     await page.setViewport({width: 256, height: 256});
     await exposeIterationControls(page);
-    await renderEach(page, entries, options);
+
+    const results = {};
+    for (const entry of entries) {
+      results[entry] = await renderPage(page, entry, options);
+    }
+    return results;
+
   } finally {
     browser.close();
   }
@@ -228,13 +230,16 @@ async function main(entries, options) {
   }
 
   const done = await serve(options);
+  let results;
   try {
-    await render(entries, options);
+    results = await render(entries, options);
   } finally {
     if (!options.interactive) {
       done();
     }
   }
+
+  return results;
 }
 
 if (require.main === module) {
@@ -290,3 +295,7 @@ if (require.main === module) {
     process.exit(1);
   });
 }
+
+module.exports = {
+  main: main
+};
