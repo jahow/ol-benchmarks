@@ -4,6 +4,7 @@
   "description": "Tool to run benchmarks of Openlayers and output results as a static page",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "benchmarks": "node benchmark.js --iterations 50 --log-level info"
   },
   "author": "",
