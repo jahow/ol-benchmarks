@@ -228,6 +228,8 @@ async function main(options) {
   let results;
   try {
     results = await render(entries, options);
+  } catch(error) {
+    options.log.error('An error occurred', error.message);
   } finally {
     if (!options.interactive) {
       done();
