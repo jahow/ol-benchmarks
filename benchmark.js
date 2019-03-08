@@ -9,10 +9,12 @@ const yargs = require('yargs');
 const log = require('loglevelnext');
 const serveStatic = require('serve-static');
 
+const logger = log.create({name: 'benchmarking', level: 'debug'});
 const compiler = webpack(Object.assign({mode: 'development'}, config));
 const webpackHandler = webpackMiddleware(compiler, {
   lazy: true,
-  stats: 'minimal'
+  stats: 'minimal',
+  logger: logger
 });
 
 function getHref(entry) {
@@ -90,7 +92,7 @@ function serve(options) {
         return reject(err);
       }
       const address = server.address();
-      options.log.info(`benchmark server listening on http://${address.address}:${address.port}/`);
+      logger.info(`benchmark server listening on http://${address.address}:${address.port}/`);
       resolve(() => server.close());
     });
   });
@@ -110,7 +112,7 @@ function printTime(time) {
 }
 
 async function renderPage(page, entry, options) {
-  options.log.debug('navigating', entry);
+  logger.debug('navigating', entry);
 
   // fps counter; frameTimes is an array of array (one array for each iteration)
   let iterationNumber = 0;
@@ -134,17 +136,17 @@ async function renderPage(page, entry, options) {
     }
   });
   page.on('error', err => {
-    options.log.error('page error: ', err);
+    logger.error('page error: ', err);
     error = true;
     iterationResolver();
   });
   page.on('pageerror', err => {
-    options.log.error('uncaught exception: ', err);
+    logger.error('uncaught exception: ', err);
   });
   page.on('console', message => {
     const type = message.type();
-    if (options.log[type]) {
-      options.log[type](message.text());
+    if (logger[type]) {
+      logger[type](message.text());
     }
   });
 
@@ -171,7 +173,7 @@ async function renderPage(page, entry, options) {
       // metrics for the iteration
       const averageTime = currentTimes.reduce((prev, curr) => prev + curr / currentTimes.length, 0);
       const maxTime = currentTimes.reduce((prev, curr) => Math.max(curr, prev), 0);
-      options.log.debug(`iteration ${iterationNumber} ended - average ${printTime(averageTime)}ms / max ${printTime(maxTime)}ms`);
+      logger.debug(`iteration ${iterationNumber} ended - average ${printTime(averageTime)}ms / max ${printTime(maxTime)}ms`);
     }
 
     // printing the report
@@ -181,8 +183,8 @@ async function renderPage(page, entry, options) {
       return times.reduce((prev, curr) => Math.max(curr, prev), 0) / frameTimes.length + prev;
     }, 0);
 
-    options.log.info(`${entry}: Maximum frame time: ${printTime(maximumFrameTime)}ms`);
-    options.log.info(`${entry}: Average frame time: ${printTime(totalFrameTime / flatFrameTimes.length)}ms`);
+    logger.info(`${entry}: Maximum frame time: ${printTime(maximumFrameTime)}ms`);
+    logger.info(`${entry}: Average frame time: ${printTime(totalFrameTime / flatFrameTimes.length)}ms`);
 
     results = {
       'frame_avg': printTime(totalFrameTime / flatFrameTimes.length),
@@ -192,7 +194,7 @@ async function renderPage(page, entry, options) {
       'heap_total': (metrics.JSHeapTotalSize / 1024).toFixed(1)
     };
   } catch(e) {
-    options.log.error('Benchmark page rendering failed: ', e);
+    logger.error('Benchmark page rendering failed: ', e);
     results = {
       'frame_avg': 0,
       'frame_max': 0,
@@ -235,9 +237,7 @@ async function main(options) {
   }
 
   // create logger & store it on the options object
-  if (!options.log) {
-    options.log = log.create({name: 'benchmarking', level: options.logLevel});
-  }
+  logger.level = options.logLevel;
 
   const done = await serve(options);
   let results;
@@ -297,7 +297,7 @@ if (require.main === module) {
   parse();
 
   main(options).catch(err => {
-    options.log.error('benchmark failed with error: ', err.message);
+    logger.error('benchmark failed with error: ', err.message);
     process.exit(1);
   });
 }
