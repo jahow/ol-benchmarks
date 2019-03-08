@@ -24,7 +24,8 @@ olGit.log({
   from: logStart,
   to: logEnd,
   '--merges': true,
-  '--reverse': true
+  '--reverse': true,
+  '--date': 'iso'
 })
   .then(async log => {
     log.all.reduce((prev, curr) => {
@@ -32,8 +33,11 @@ olGit.log({
       return resultData;
     }, resultData);
 
+    let i = 0;
+    const count = Object.keys(resultData).length;
     for (let hash in resultData) {
-      console.log(`Running benchmarks for commit ${hash}...`);
+      i++;
+      console.log(`Running benchmarks for commit ${hash} - [${i} on ${count}]`);
       await olGit.reset([hash, '--hard']).then(async () => {
         resultData[hash].benchmarks = await main(benchmarkOptions);
       }, console.error);
