@@ -5,7 +5,6 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <style>
     svg#root {
-      width: 2000px;
       height: 500px;
       margin: 10px;
       margin-right: 300px;
@@ -45,7 +44,12 @@
 
     function drawChart(data) {
       var margin = 40;
-      var width = el.getBoundingClientRect().width;
+      var timeExtent = d3.extent(data, function (d) {
+        return new Date(d.date)
+      });
+
+      // set root width&height according to date range
+      var width = (timeExtent[1] - timeExtent[0]) * 0.000001;
       var height = el.getBoundingClientRect().height;
 
       var g = d3.select('svg#root')
@@ -53,16 +57,14 @@
         .attr('height', height)
         .append('g');
 
-      var scaleX = d3.scaleTime().rangeRound([margin, width]);
+      var scaleX = d3.scaleTime().rangeRound([margin, width - margin]);
       var scaleY = d3.scaleLinear().rangeRound([height - margin, 0]);
-      scaleX.domain(d3.extent(data, function (d) {
-        return new Date(d.date)
-      }));
+      scaleX.domain(timeExtent);
       scaleY.domain([0, 700]);
 
       g.append('g')
         .attr('transform', 'translate(0,' + (height - margin) + ')')
-        .call(d3.axisBottom(scaleX));
+        .call(d3.axisBottom(scaleX).ticks(d3.timeDay, 2).tickFormat(d3.timeFormat("%d %m %Y")));
       g.append('g')
         .attr('transform', 'translate(' + margin + ',0)')
         .call(d3.axisLeft(scaleY));
@@ -108,7 +110,7 @@
 
       dotPairs.append('circle')
         .attr('class', 'avg')
-        .attr('r', 5)
+        .attr('r', 4)
         .attr('fill', 'steelblue')
         .attr("cx", function (d) {
           return scaleX(new Date(d.date));
@@ -118,7 +120,7 @@
         });
       dotPairs.append('circle')
         .attr('class', 'max')
-        .attr('r', 5)
+        .attr('r', 4)
         .attr('fill', 'orange')
         .attr("cx", function (d) {
           return scaleX(new Date(d.date));
