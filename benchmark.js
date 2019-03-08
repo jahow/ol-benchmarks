@@ -10,6 +10,10 @@ const log = require('loglevelnext');
 const serveStatic = require('serve-static');
 
 const compiler = webpack(Object.assign({mode: 'development'}, config));
+const webpackHandler = webpackMiddleware(compiler, {
+  lazy: true,
+  stats: 'minimal'
+});
 
 function getHref(entry) {
   return path.dirname(entry).slice(1) + '/';
@@ -64,12 +68,6 @@ function notFound(req, res) {
 }
 
 function serve(options) {
-  const webpackHandler = webpackMiddleware(compiler, {
-    lazy: true,
-    logger: options.log,
-    stats: 'minimal'
-  });
-
   return new Promise((resolve, reject) => {
     const server = http.createServer((req, res) => {
 
@@ -114,14 +112,13 @@ function printTime(time) {
 async function renderPage(page, entry, options) {
   options.log.debug('navigating', entry);
 
-  await page.goto(`http://${options.host}:${options.port}${getHref(entry)}`, {waitUntil: 'load'});
-  await new Promise(resolve => setTimeout(resolve, 1000));
-
   // fps counter; frameTimes is an array of array (one array for each iteration)
   let iterationNumber = 0;
   const frameTimes = [];
   const flatFrameTimes = [];
   let refTime = 0;
+  let results = {};
+  let error = false;
   page.on('metrics', (metrics) => {
     // first iteration is ignored
     if (iterationNumber === 0) {
@@ -136,42 +133,72 @@ async function renderPage(page, entry, options) {
       flatFrameTimes.push(time - refTime);
     }
   });
+  page.on('error', err => {
+    options.log.error('page error: ', err);
+    error = true;
+    iterationResolver();
+  });
+  page.on('pageerror', err => {
+    options.log.error('uncaught exception: ', err);
+  });
+  page.on('console', message => {
+    const type = message.type();
+    if (options.log[type]) {
+      options.log[type](message.text());
+    }
+  });
 
-  for (iterationNumber; iterationNumber < options.iterations + 1; iterationNumber++) {
-    const iterationEnd = new Promise(resolve => iterationResolver = resolve);
-    const currentTimes = [];
-    frameTimes.push(currentTimes);
+  try {
+    await page.goto(`http://${options.host}:${options.port}${getHref(entry)}`, {waitUntil: 'load'});
+    await new Promise(resolve => setTimeout(resolve, 1000));
 
-    await page.evaluate('startIteration()');
-    await iterationEnd;
+    for (iterationNumber; iterationNumber < options.iterations + 1; iterationNumber++) {
+      const iterationEnd = new Promise(resolve => iterationResolver = resolve);
+      const currentTimes = [];
+      frameTimes.push(currentTimes);
 
-    if (iterationNumber === 0) {
-      continue;
+      await page.evaluate('startIteration()');
+      await iterationEnd;
+
+      if (error) {
+        throw new Error('Iteration ' + iterationNumber + ' crashed');
+      }
+
+      if (iterationNumber === 0) {
+        continue;
+      }
+
+      // metrics for the iteration
+      const averageTime = currentTimes.reduce((prev, curr) => prev + curr / currentTimes.length, 0);
+      const maxTime = currentTimes.reduce((prev, curr) => Math.max(curr, prev), 0);
+      options.log.debug(`iteration ${iterationNumber} ended - average ${printTime(averageTime)}ms / max ${printTime(maxTime)}ms`);
     }
 
-    // metrics for the iteration
-    const averageTime = currentTimes.reduce((prev, curr) => prev + curr / currentTimes.length, 0);
-    const maxTime = currentTimes.reduce((prev, curr) => Math.max(curr, prev), 0);
-    options.log.debug(`iteration ${iterationNumber} ended - average ${printTime(averageTime)}ms / max ${printTime(maxTime)}ms`);
+    // printing the report
+    const metrics = await page.metrics();
+    const totalFrameTime = flatFrameTimes.reduce((prev, curr) => prev + curr, 0);
+    const maximumFrameTime = frameTimes.reduce((prev, times) => {
+      return times.reduce((prev, curr) => Math.max(curr, prev), 0) / frameTimes.length + prev;
+    }, 0);
+
+    options.log.info(`${entry}: Maximum frame time: ${printTime(maximumFrameTime)}ms`);
+    options.log.info(`${entry}: Average frame time: ${printTime(totalFrameTime / flatFrameTimes.length)}ms`);
+
+    results = {
+      'frame_avg': printTime(totalFrameTime / flatFrameTimes.length),
+      'frame_max': printTime(maximumFrameTime),
+      'frame_total': printTime(totalFrameTime),
+      'heap_used': (metrics.JSHeapUsedSize / 1024).toFixed(1),
+      'heap_total': (metrics.JSHeapTotalSize / 1024).toFixed(1)
+    };
+  } catch(e) {
+    options.log.error('Benchmark page rendering failed: ', e);
+    results = {
+      'frame_avg': 0,
+      'frame_max': 0,
+      'frame_total': 0
+    };
   }
-
-  // printing the report
-  const metrics = await page.metrics();
-  const totalFrameTime = flatFrameTimes.reduce((prev, curr) => prev + curr, 0);
-  const maximumFrameTime = frameTimes.reduce((prev, times) => {
-    return times.reduce((prev, curr) => Math.max(curr, prev), 0) / frameTimes.length + prev;
-  }, 0);
-
-  options.log.info(`${entry}: Maximum frame time: ${printTime(maximumFrameTime)}ms`);
-  options.log.info(`${entry}: Average frame time: ${printTime(totalFrameTime / flatFrameTimes.length)}ms`);
-
-  const results = {
-    'frame_avg': printTime(totalFrameTime / flatFrameTimes.length),
-    'frame_max': printTime(maximumFrameTime),
-    'frame_total': printTime(totalFrameTime),
-    'heap_used': (metrics.JSHeapUsedSize / 1024).toFixed(1),
-    'heap_total': (metrics.JSHeapTotalSize / 1024).toFixed(1)
-  };
 
   return results;
 }
@@ -184,18 +211,6 @@ async function render(entries, options) {
 
   try {
     const page = await browser.newPage();
-    page.on('error', err => {
-      options.log.error('page crash', err);
-    });
-    page.on('pageerror', err => {
-      options.log.error('uncaught exception', err);
-    });
-    page.on('console', message => {
-      const type = message.type();
-      if (options.log[type]) {
-        options.log[type](message.text());
-      }
-    });
 
     page.setDefaultNavigationTimeout(options.timeout);
     await page.setViewport({width: 256, height: 256});
@@ -228,8 +243,6 @@ async function main(options) {
   let results;
   try {
     results = await render(entries, options);
-  } catch(error) {
-    options.log.error('An error occurred', error.message);
   } finally {
     if (!options.interactive) {
       done();
@@ -284,7 +297,7 @@ if (require.main === module) {
   parse();
 
   main(options).catch(err => {
-    options.log.error(err.message);
+    options.log.error('benchmark failed with error: ', err.message);
     process.exit(1);
   });
 }
