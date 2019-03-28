@@ -1,0 +1,3826 @@
+{
+  "7321541de83db157de38417cc83e32bd3eca397d": {
+    "hash": "7321541de83db157de38417cc83e32bd3eca397d",
+    "date": "2018-11-06 09:46:18-0700",
+    "message": "Merge pull request #8887 from openlayers/release-v5.3.0",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "135.5",
+        "frame_max": "649.4",
+        "frame_total": "59636.9",
+        "heap_used": "194098.1",
+        "heap_total": "227676.0"
+      }
+    }
+  },
+  "aab9ff023c2d0a9f78f05b00e3eba09fb3690931": {
+    "hash": "aab9ff023c2d0a9f78f05b00e3eba09fb3690931",
+    "date": "2018-11-08 11:42:48+0100",
+    "message": "Merge pull request #8893 from fredj/proj_sideEffects",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "108.1",
+        "frame_max": "661.6",
+        "frame_total": "58712.3",
+        "heap_used": "113818.4",
+        "heap_total": "199004.0"
+      }
+    }
+  },
+  "c43b0cb52094f5d960445599e3e25d27fee240df": {
+    "hash": "c43b0cb52094f5d960445599e3e25d27fee240df",
+    "date": "2018-11-09 17:46:32-0700",
+    "message": "Merge pull request #8895 from tschaub/rendering-tests",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "108.2",
+        "frame_max": "699.3",
+        "frame_total": "57879.0",
+        "heap_used": "72630.2",
+        "heap_total": "126300.0"
+      }
+    }
+  },
+  "93ff80449f0944c76eb433585828bc034efaf0e2": {
+    "hash": "93ff80449f0944c76eb433585828bc034efaf0e2",
+    "date": "2018-11-10 07:10:30-0700",
+    "message": "Merge pull request #8902 from openlayers/greenkeeper/rollup-0.67.0",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "131.2",
+        "frame_max": "672.7",
+        "frame_total": "59951.4",
+        "heap_used": "59689.2",
+        "heap_total": "131932.0"
+      }
+    }
+  },
+  "83c988eed53a2dcbcabd568c214f1083427345ab": {
+    "hash": "83c988eed53a2dcbcabd568c214f1083427345ab",
+    "date": "2018-11-10 12:22:18-0700",
+    "message": "Merge pull request #8903 from tschaub/rendering-tests",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "92.1",
+        "frame_max": "715.1",
+        "frame_total": "56009.9",
+        "heap_used": "60721.6",
+        "heap_total": "155484.0"
+      }
+    }
+  },
+  "cb9925034cd1358073e68d3caac8a2b8885c6859": {
+    "hash": "cb9925034cd1358073e68d3caac8a2b8885c6859",
+    "date": "2018-11-10 15:57:24-0700",
+    "message": "Merge pull request #8904 from tschaub/default-index",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "142.3",
+        "frame_max": "742.3",
+        "frame_total": "61191.8",
+        "heap_used": "138509.1",
+        "heap_total": "174428.0"
+      }
+    }
+  },
+  "cbcd1fdcecfeeab86514a1dc19b4a7b781541389": {
+    "hash": "cbcd1fdcecfeeab86514a1dc19b4a7b781541389",
+    "date": "2018-11-11 21:05:40+0100",
+    "message": "Merge pull request #8905 from openlayers/greenkeeper/rollup-0.67.1",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "111.1",
+        "frame_max": "709.0",
+        "frame_total": "58122.4",
+        "heap_used": "137350.9",
+        "heap_total": "215388.0"
+      }
+    }
+  },
+  "6e27b47fc3996cef20dd83c0b01de7f01dfb092c": {
+    "hash": "6e27b47fc3996cef20dd83c0b01de7f01dfb092c",
+    "date": "2018-11-12 11:57:00+0100",
+    "message": "Merge pull request #8892 from fredj/do_typo",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "106.3",
+        "frame_max": "654.0",
+        "frame_total": "58123.7",
+        "heap_used": "137008.1",
+        "heap_total": "175452.0"
+      }
+    }
+  },
+  "95c363075c670377b685ca0286a4c71b958c4cba": {
+    "hash": "95c363075c670377b685ca0286a4c71b958c4cba",
+    "date": "2018-11-12 07:10:00-0700",
+    "message": "Merge pull request #8848 from tschaub/renderers",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "129.5",
+        "frame_max": "697.4",
+        "frame_total": "58133.8",
+        "heap_used": "56860.4",
+        "heap_total": "95064.0"
+      }
+    }
+  },
+  "4a5fa1f840f9665326e6bb681687e6882ccd753c": {
+    "hash": "4a5fa1f840f9665326e6bb681687e6882ccd753c",
+    "date": "2018-11-12 07:55:26-0700",
+    "message": "Merge pull request #8908 from tschaub/opacity",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "122.3",
+        "frame_max": "682.3",
+        "frame_total": "60516.7",
+        "heap_used": "198606.1",
+        "heap_total": "228184.0"
+      }
+    }
+  },
+  "0c97fd63e23dafab326f7dbc48b93d1fb4dfc128": {
+    "hash": "0c97fd63e23dafab326f7dbc48b93d1fb4dfc128",
+    "date": "2018-11-12 10:50:02-0700",
+    "message": "Merge pull request #8912 from tschaub/rotation",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "118.2",
+        "frame_max": "666.8",
+        "frame_total": "57468.8",
+        "heap_used": "70460.9",
+        "heap_total": "180568.0"
+      }
+    }
+  },
+  "1c3e7a548f452b814fbba27f249c64f0877ac7a3": {
+    "hash": "1c3e7a548f452b814fbba27f249c64f0877ac7a3",
+    "date": "2018-11-12 13:06:43-0700",
+    "message": "Merge pull request #8917 from tschaub/layer-transforms",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "122.7",
+        "frame_max": "684.4",
+        "frame_total": "59376.9",
+        "heap_used": "128237.0",
+        "heap_total": "172888.0"
+      }
+    }
+  },
+  "04077675e17665029812c205b30e8feb3ccaa93f": {
+    "hash": "04077675e17665029812c205b30e8feb3ccaa93f",
+    "date": "2018-11-12 13:07:01-0700",
+    "message": "Merge pull request #8916 from tschaub/intermediate-context",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "136.2",
+        "frame_max": "698.5",
+        "frame_total": "59934.7",
+        "heap_used": "125762.7",
+        "heap_total": "179544.0"
+      }
+    }
+  },
+  "2caa74a4e9b25b6633868ed41eb7c02a564cb2e2": {
+    "hash": "2caa74a4e9b25b6633868ed41eb7c02a564cb2e2",
+    "date": "2018-11-13 03:06:21-0700",
+    "message": "Merge pull request #8913 from fgravin/intermediatecanvas-renderframe",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "139.8",
+        "frame_max": "684.3",
+        "frame_total": "58979.1",
+        "heap_used": "196868.2",
+        "heap_total": "226648.0"
+      }
+    }
+  },
+  "647421f07bc36c2c8ca7c290d125f6cbba058878": {
+    "hash": "647421f07bc36c2c8ca7c290d125f6cbba058878",
+    "date": "2018-11-13 11:46:39+0100",
+    "message": "Merge pull request #8920 from fredj/rm_relative",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "134.7",
+        "frame_max": "665.0",
+        "frame_total": "60898.4",
+        "heap_used": "78763.9",
+        "heap_total": "157528.0"
+      }
+    }
+  },
+  "96cca7ac18055b542a55e315126a33fb104190e1": {
+    "hash": "96cca7ac18055b542a55e315126a33fb104190e1",
+    "date": "2018-11-13 05:50:59-0700",
+    "message": "Merge pull request #8927 from tschaub/local",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "130.9",
+        "frame_max": "667.1",
+        "frame_total": "58893.1",
+        "heap_used": "112413.5",
+        "heap_total": "202584.0"
+      }
+    }
+  },
+  "fd0acaccd1a57bbf1a94a7a6c5472278b4ce3b34": {
+    "hash": "fd0acaccd1a57bbf1a94a7a6c5472278b4ce3b34",
+    "date": "2018-11-13 15:16:33+0100",
+    "message": "Merge pull request #8925 from fredj/misc",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "127.5",
+        "frame_max": "640.5",
+        "frame_total": "58666.2",
+        "heap_used": "70493.2",
+        "heap_total": "212824.0"
+      }
+    }
+  },
+  "cda23e0d532f96f74e02f40dbe37d2390f10fce5": {
+    "hash": "cda23e0d532f96f74e02f40dbe37d2390f10fce5",
+    "date": "2018-11-13 16:03:31+0100",
+    "message": "Merge pull request #8928 from ahocevar/mapbox-style",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "126.0",
+        "frame_max": "673.3",
+        "frame_total": "60350.3",
+        "heap_used": "137528.3",
+        "heap_total": "174424.0"
+      }
+    }
+  },
+  "2bc0d7f2cea2a80552f6a7828ae8886649e4c9e2": {
+    "hash": "2bc0d7f2cea2a80552f6a7828ae8886649e4c9e2",
+    "date": "2018-11-13 16:59:06+0100",
+    "message": "Merge pull request #8918 from fredj/dom-to-image-more",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "141.1",
+        "frame_max": "704.1",
+        "frame_total": "62070.7",
+        "heap_used": "264676.0",
+        "heap_total": "300376.0"
+      }
+    }
+  },
+  "82ab50a22bee428cf97efec0d81ab71d81f5308e": {
+    "hash": "82ab50a22bee428cf97efec0d81ab71d81f5308e",
+    "date": "2018-11-13 17:21:38+0100",
+    "message": "Merge pull request #8924 from ahocevar/reuse-vt-replays",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "72.7",
+        "frame_max": "787.4",
+        "frame_total": "55059.5",
+        "heap_used": "167284.9",
+        "heap_total": "200536.0"
+      }
+    }
+  },
+  "f9a7cf2251d2de4b640fe2e9b4f82be5262c520b": {
+    "hash": "f9a7cf2251d2de4b640fe2e9b4f82be5262c520b",
+    "date": "2018-11-14 14:02:38+0100",
+    "message": "Merge pull request #8932 from fredj/dt_pbf",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "72.1",
+        "frame_max": "683.0",
+        "frame_total": "55297.0",
+        "heap_used": "68196.2",
+        "heap_total": "159576.0"
+      }
+    }
+  },
+  "46b8f39c71685c3ef071c33cce52371dd4fcb825": {
+    "hash": "46b8f39c71685c3ef071c33cce52371dd4fcb825",
+    "date": "2018-11-14 16:00:20+0100",
+    "message": "Merge pull request #8936 from tschaub/rendering-sourcemaps",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "87.7",
+        "frame_max": "747.5",
+        "frame_total": "57340.3",
+        "heap_used": "69703.3",
+        "heap_total": "157016.0"
+      }
+    }
+  },
+  "d6e87111721f1f846ac4266e41de05171671ae2e": {
+    "hash": "d6e87111721f1f846ac4266e41de05171671ae2e",
+    "date": "2018-11-14 16:09:23+0100",
+    "message": "Merge pull request #8922 from fgravin/layerrenderapi",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "75.6",
+        "frame_max": "651.8",
+        "frame_total": "56671.6",
+        "heap_used": "169350.1",
+        "heap_total": "203608.0"
+      }
+    }
+  },
+  "19541699c3a506c728119a3d96896bab405fce8f": {
+    "hash": "19541699c3a506c728119a3d96896bab405fce8f",
+    "date": "2018-11-14 16:23:26+0100",
+    "message": "Merge pull request #8910 from fredj/containsXY",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "84.4",
+        "frame_max": "692.6",
+        "frame_total": "57554.8",
+        "heap_used": "176110.1",
+        "heap_total": "209240.0"
+      }
+    }
+  },
+  "4adcb5ae6c39746d23f0209d617ccd161e0cf642": {
+    "hash": "4adcb5ae6c39746d23f0209d617ccd161e0cf642",
+    "date": "2018-11-14 16:23:56+0100",
+    "message": "Merge pull request #8914 from fredj/layer_className",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "78.0",
+        "frame_max": "730.8",
+        "frame_total": "55047.5",
+        "heap_used": "61348.0",
+        "heap_total": "162648.0"
+      }
+    }
+  },
+  "7a472321c417b749dd57e170b5f6c797c2f5fb5c": {
+    "hash": "7a472321c417b749dd57e170b5f6c797c2f5fb5c",
+    "date": "2018-11-14 16:24:12+0100",
+    "message": "Merge pull request #8930 from fredj/better_export_example",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "86.8",
+        "frame_max": "689.0",
+        "frame_total": "56788.0",
+        "heap_used": "233337.6",
+        "heap_total": "267096.0"
+      }
+    }
+  },
+  "7ae051c07a7642482d33f098c1a8fec9228e35b5": {
+    "hash": "7ae051c07a7642482d33f098c1a8fec9228e35b5",
+    "date": "2018-11-14 17:06:52+0100",
+    "message": "Merge pull request #8937 from tschaub/debug-tiles",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "83.1",
+        "frame_max": "723.7",
+        "frame_total": "56937.1",
+        "heap_used": "67623.1",
+        "heap_total": "100184.0"
+      }
+    }
+  },
+  "0452da92d3cd451a38a1291ea1aac2e951f6ad06": {
+    "hash": "0452da92d3cd451a38a1291ea1aac2e951f6ad06",
+    "date": "2018-11-14 17:14:05+0100",
+    "message": "Merge pull request #8931 from fgravin/mapbox-layer",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "72.7",
+        "frame_max": "715.6",
+        "frame_total": "55145.4",
+        "heap_used": "124585.0",
+        "heap_total": "173400.0"
+      }
+    }
+  },
+  "aa841c7de263db7efa1a60711aaa0e197cf16833": {
+    "hash": "aa841c7de263db7efa1a60711aaa0e197cf16833",
+    "date": "2018-11-14 20:42:33+0100",
+    "message": "Merge pull request #8933 from fredj/icon-symbol-svg",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "82.4",
+        "frame_max": "691.5",
+        "frame_total": "57080.0",
+        "heap_used": "184905.2",
+        "heap_total": "220504.0"
+      }
+    }
+  },
+  "50ae34fcc679830a6c431db42c3205edcb0c3e8b": {
+    "hash": "50ae34fcc679830a6c431db42c3205edcb0c3e8b",
+    "date": "2018-11-15 10:36:16+0100",
+    "message": "Merge pull request #8941 from fredj/render_message",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "81.8",
+        "frame_max": "716.0",
+        "frame_total": "55862.3",
+        "heap_used": "127554.3",
+        "heap_total": "171864.0"
+      }
+    }
+  },
+  "96dd5417e3f5c0d07a281c460afbced778e47b5a": {
+    "hash": "96dd5417e3f5c0d07a281c460afbced778e47b5a",
+    "date": "2018-11-15 11:31:13+0100",
+    "message": "Merge pull request #8938 from fredj/render-toContext-tests",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "84.2",
+        "frame_max": "707.8",
+        "frame_total": "57108.0",
+        "heap_used": "171826.1",
+        "heap_total": "211288.0"
+      }
+    }
+  },
+  "0d94b1a566b0d094f77b69cd7ee57e8bfd6120ea": {
+    "hash": "0d94b1a566b0d094f77b69cd7ee57e8bfd6120ea",
+    "date": "2018-11-15 12:18:29+0100",
+    "message": "Merge pull request #8940 from jahow/fix-overview",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "80.9",
+        "frame_max": "673.0",
+        "frame_total": "56637.3",
+        "heap_used": "125621.5",
+        "heap_total": "161624.0"
+      }
+    }
+  },
+  "d0f66b7cec9854973e75345edcbf7cc521631700": {
+    "hash": "d0f66b7cec9854973e75345edcbf7cc521631700",
+    "date": "2018-11-15 15:20:11+0100",
+    "message": "Merge pull request #8943 from fredj/text-style-tests",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "98.3",
+        "frame_max": "726.1",
+        "frame_total": "56738.2",
+        "heap_used": "190139.9",
+        "heap_total": "217944.0"
+      }
+    }
+  },
+  "56131cf6ea90c1199911d841a467cdf6a25760e2": {
+    "hash": "56131cf6ea90c1199911d841a467cdf6a25760e2",
+    "date": "2018-11-15 15:53:49+0100",
+    "message": "Merge pull request #8946 from tschaub/renderer-fixes",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "92.5",
+        "frame_max": "704.8",
+        "frame_total": "58061.9",
+        "heap_used": "68553.4",
+        "heap_total": "163672.0"
+      }
+    }
+  },
+  "d7a6c4dbe3604ca71b36cf890ee46eac74f6d4b1": {
+    "hash": "d7a6c4dbe3604ca71b36cf890ee46eac74f6d4b1",
+    "date": "2018-11-15 17:12:01+0100",
+    "message": "Merge pull request #8950 from fredj/shx",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "79.7",
+        "frame_max": "713.4",
+        "frame_total": "56260.6",
+        "heap_used": "131422.8",
+        "heap_total": "169816.0"
+      }
+    }
+  },
+  "5bbfeef12b78b49a9344e58980a339f8cbc10274": {
+    "hash": "5bbfeef12b78b49a9344e58980a339f8cbc10274",
+    "date": "2018-11-15 17:42:33+0100",
+    "message": "Merge pull request #8953 from fredj/ci_order",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "77.1",
+        "frame_max": "691.3",
+        "frame_total": "55810.6",
+        "heap_used": "126344.2",
+        "heap_total": "209752.0"
+      }
+    }
+  },
+  "f95070a34d58245506b7f99077945919e96d34db": {
+    "hash": "f95070a34d58245506b7f99077945919e96d34db",
+    "date": "2018-11-15 18:04:41+0100",
+    "message": "Merge pull request #8948 from fgravin/mapbox-rotation",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "83.6",
+        "frame_max": "719.9",
+        "frame_total": "56992.7",
+        "heap_used": "116517.1",
+        "heap_total": "186712.0"
+      }
+    }
+  },
+  "00cf75c837497482f0c6a37d1c3d78039b635127": {
+    "hash": "00cf75c837497482f0c6a37d1c3d78039b635127",
+    "date": "2018-11-15 18:07:15+0100",
+    "message": "Merge pull request #8944 from jahow/fix-graticule",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "91.7",
+        "frame_max": "710.1",
+        "frame_total": "58066.6",
+        "heap_used": "126183.1",
+        "heap_total": "168280.0"
+      }
+    }
+  },
+  "bdbf00f05502666cad6cb43477d9334926b6e385": {
+    "hash": "bdbf00f05502666cad6cb43477d9334926b6e385",
+    "date": "2018-11-16 10:42:17+0100",
+    "message": "Merge pull request #8934 from fgravin/renderingtest",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "93.4",
+        "frame_max": "646.6",
+        "frame_total": "57926.0",
+        "heap_used": "171682.5",
+        "heap_total": "206168.0"
+      }
+    }
+  },
+  "2cb9d47547841499273c11106d4554d6c3bc929e": {
+    "hash": "2cb9d47547841499273c11106d4554d6c3bc929e",
+    "date": "2018-11-16 11:25:16+0100",
+    "message": "Merge pull request #8957 from fredj/misc",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "82.1",
+        "frame_max": "694.1",
+        "frame_total": "56018.7",
+        "heap_used": "125213.0",
+        "heap_total": "160088.0"
+      }
+    }
+  },
+  "2e32ac7254763d4cf9563c745dea2d73b3f5c2c4": {
+    "hash": "2e32ac7254763d4cf9563c745dea2d73b3f5c2c4",
+    "date": "2018-11-16 13:45:30+0100",
+    "message": "Merge pull request #8939 from fredj/rework_d3_example",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "78.6",
+        "frame_max": "703.3",
+        "frame_total": "56390.6",
+        "heap_used": "116532.5",
+        "heap_total": "207192.0"
+      }
+    }
+  },
+  "9937fd5963d7c72ff10dc54359e859fd96e27623": {
+    "hash": "9937fd5963d7c72ff10dc54359e859fd96e27623",
+    "date": "2018-11-16 13:52:52+0100",
+    "message": "Merge pull request #8952 from fredj/polygon-style_tests",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "84.5",
+        "frame_max": "703.9",
+        "frame_total": "57813.9",
+        "heap_used": "65724.5",
+        "heap_total": "180568.0"
+      }
+    }
+  },
+  "36cf7227c07f97c81d2b43353c3257f24d9d9952": {
+    "hash": "36cf7227c07f97c81d2b43353c3257f24d9d9952",
+    "date": "2018-11-16 13:54:18+0100",
+    "message": "Merge pull request #8926 from gberaudo/replay_refactoring",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "74.2",
+        "frame_max": "688.7",
+        "frame_total": "56331.4",
+        "heap_used": "141016.1",
+        "heap_total": "175968.0"
+      }
+    }
+  },
+  "dd23055db1ffb2b3eb298ed46b797f24f51a6e5d": {
+    "hash": "dd23055db1ffb2b3eb298ed46b797f24f51a6e5d",
+    "date": "2018-11-16 14:55:00+0100",
+    "message": "Merge pull request #8951 from jahow/remove-webgl",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "113.7",
+        "frame_max": "733.3",
+        "frame_total": "58096.1",
+        "heap_used": "53028.5",
+        "heap_total": "144736.0"
+      }
+    }
+  },
+  "a81c2ad99551ea048f8ea437f8f2673f41a1b3c3": {
+    "hash": "a81c2ad99551ea048f8ea437f8f2673f41a1b3c3",
+    "date": "2018-11-16 18:42:24+0100",
+    "message": "Merge pull request #8923 from tschaub/composite",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "82.5",
+        "frame_max": "734.2",
+        "frame_total": "56875.5",
+        "heap_used": "1793930.2",
+        "heap_total": "1915736.0"
+      }
+    }
+  },
+  "97ed71f683820e0237b18f1e5f4f98bd8bd3327e": {
+    "hash": "97ed71f683820e0237b18f1e5f4f98bd8bd3327e",
+    "date": "2018-11-17 08:46:15+0100",
+    "message": "Merge pull request #8963 from openlayers/greenkeeper/rollup-0.67.2",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "86.3",
+        "frame_max": "725.2",
+        "frame_total": "56240.9",
+        "heap_used": "1776268.7",
+        "heap_total": "1879896.0"
+      }
+    }
+  },
+  "c39471aa93239dc945b0f4faaf6ca19769398ed9": {
+    "hash": "c39471aa93239dc945b0f4faaf6ca19769398ed9",
+    "date": "2018-11-17 10:27:13+0100",
+    "message": "Merge pull request #8966 from openlayers/greenkeeper/rollup-0.67.3",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "83.2",
+        "frame_max": "746.2",
+        "frame_total": "55918.7",
+        "heap_used": "1736868.9",
+        "heap_total": "1866072.0"
+      }
+    }
+  },
+  "93140d949551ea1588f95d4a4db276e3741989b1": {
+    "hash": "93140d949551ea1588f95d4a4db276e3741989b1",
+    "date": "2018-11-17 10:59:54+0100",
+    "message": "Merge pull request #8915 from fredj/layer_zIndex",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "74.7",
+        "frame_max": "788.4",
+        "frame_total": "55819.4",
+        "heap_used": "1767298.0",
+        "heap_total": "1895256.0"
+      }
+    }
+  },
+  "06ae175cef15f98baeb70012843f50d566fe149e": {
+    "hash": "06ae175cef15f98baeb70012843f50d566fe149e",
+    "date": "2018-11-17 11:00:19+0100",
+    "message": "Merge pull request #8964 from fredj/col_evt_index",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "105.2",
+        "frame_max": "697.3",
+        "frame_total": "58889.1",
+        "heap_used": "1834004.6",
+        "heap_total": "1941336.0"
+      }
+    }
+  },
+  "ba609a67baa180ce1dbfd39fec0d321954d7c0aa": {
+    "hash": "ba609a67baa180ce1dbfd39fec0d321954d7c0aa",
+    "date": "2018-11-17 16:41:41+0100",
+    "message": "Merge pull request #8969 from tschaub/inverse-transforms",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "77.1",
+        "frame_max": "742.6",
+        "frame_total": "55687.3",
+        "heap_used": "1774481.8",
+        "heap_total": "1896792.0"
+      }
+    }
+  },
+  "d030f092a2ac0e68723b24a75b00bd61acdfbf21": {
+    "hash": "d030f092a2ac0e68723b24a75b00bd61acdfbf21",
+    "date": "2018-11-17 16:54:20+0100",
+    "message": "Merge pull request #8967 from fredj/ts_checks_fix_webgl",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "93.7",
+        "frame_max": "681.7",
+        "frame_total": "56858.0",
+        "heap_used": "1769232.8",
+        "heap_total": "1881432.0"
+      }
+    }
+  },
+  "b4b9b35ef7c734df856dc4c3c3202d91cd366c47": {
+    "hash": "b4b9b35ef7c734df856dc4c3c3202d91cd366c47",
+    "date": "2018-11-17 23:10:45+0100",
+    "message": "Merge pull request #8972 from ahocevar/no-rollup",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "79.6",
+        "frame_max": "764.8",
+        "frame_total": "55532.3",
+        "heap_used": "1770407.9",
+        "heap_total": "1899864.0"
+      }
+    }
+  },
+  "140e8b59bb7648d064ee3265765b26bee12276a0": {
+    "hash": "140e8b59bb7648d064ee3265765b26bee12276a0",
+    "date": "2018-11-18 00:16:01+0100",
+    "message": "Merge pull request #8968 from fredj/Object.values",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "82.4",
+        "frame_max": "777.8",
+        "frame_total": "55968.3",
+        "heap_used": "1742776.9",
+        "heap_total": "1874264.0"
+      }
+    }
+  },
+  "2eeef29ab2ffd7eb6d737de6c4802cb51ea95aba": {
+    "hash": "2eeef29ab2ffd7eb6d737de6c4802cb51ea95aba",
+    "date": "2018-11-18 17:06:55+0100",
+    "message": "Merge pull request #8970 from ahocevar/zindex",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "88.4",
+        "frame_max": "774.9",
+        "frame_total": "57084.6",
+        "heap_used": "1780618.4",
+        "heap_total": "1865560.0"
+      }
+    }
+  },
+  "eb700a3c5e4698807a5243aa6e693b8b0232726c": {
+    "hash": "eb700a3c5e4698807a5243aa6e693b8b0232726c",
+    "date": "2018-11-18 20:37:16+0100",
+    "message": "Merge pull request #8976 from ahocevar/unscale-tile-canvas",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "81.8",
+        "frame_max": "755.0",
+        "frame_total": "56391.5",
+        "heap_used": "1821673.9",
+        "heap_total": "1936728.0"
+      }
+    }
+  },
+  "066e5b7ed31a698c4caed72b4f64311d3588ba11": {
+    "hash": "066e5b7ed31a698c4caed72b4f64311d3588ba11",
+    "date": "2018-11-19 11:40:33+0100",
+    "message": "Merge pull request #8978 from openlayers/greenkeeper/webpack-4.26.0",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "85.5",
+        "frame_max": "724.4",
+        "frame_total": "55947.9",
+        "heap_used": "1775257.1",
+        "heap_total": "1896280.0"
+      }
+    }
+  },
+  "5d14666376d88c532ae69095ebc16c4ae0e48402": {
+    "hash": "5d14666376d88c532ae69095ebc16c4ae0e48402",
+    "date": "2018-11-19 15:53:36+0100",
+    "message": "Merge pull request #8980 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "76.6",
+        "frame_max": "721.5",
+        "frame_total": "55502.2",
+        "heap_used": "1788967.5",
+        "heap_total": "1908568.0"
+      }
+    }
+  },
+  "61baa8a4a2f83ba23fcacc1e7f6420ffc694c3d6": {
+    "hash": "61baa8a4a2f83ba23fcacc1e7f6420ffc694c3d6",
+    "date": "2018-11-19 12:49:36-0800",
+    "message": "Merge pull request #8982 from tschaub/stacking",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "81.1",
+        "frame_max": "711.0",
+        "frame_total": "55217.9",
+        "heap_used": "1763422.0",
+        "heap_total": "1884504.0"
+      }
+    }
+  },
+  "4ff7b0a37992aabada3bfe41e2087043c92350e0": {
+    "hash": "4ff7b0a37992aabada3bfe41e2087043c92350e0",
+    "date": "2018-11-19 12:53:57-0800",
+    "message": "Merge pull request #8983 from openlayers/issue-templates",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "78.5",
+        "frame_max": "750.5",
+        "frame_total": "56116.9",
+        "heap_used": "1796932.2",
+        "heap_total": "1919832.0"
+      }
+    }
+  },
+  "e058eb31646331daa71386698e67a67384d70c5f": {
+    "hash": "e058eb31646331daa71386698e67a67384d70c5f",
+    "date": "2018-11-19 13:40:46-0800",
+    "message": "Merge pull request #8987 from tschaub/rendering-updates",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "68.7",
+        "frame_max": "767.0",
+        "frame_total": "53524.2",
+        "heap_used": "1732672.8",
+        "heap_total": "1860440.0"
+      }
+    }
+  },
+  "0fd4af670bf14174f48d27cbe7d264e5cc94ccae": {
+    "hash": "0fd4af670bf14174f48d27cbe7d264e5cc94ccae",
+    "date": "2018-11-19 15:21:49-0800",
+    "message": "Merge pull request #8988 from tschaub/measure-and-cache-text-width",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "84.6",
+        "frame_max": "702.9",
+        "frame_total": "56323.1",
+        "heap_used": "1771386.1",
+        "heap_total": "1873240.0"
+      }
+    }
+  },
+  "1133a5bfb789eb26fa170f2638e8ee51117cc838": {
+    "hash": "1133a5bfb789eb26fa170f2638e8ee51117cc838",
+    "date": "2018-11-19 16:30:30-0800",
+    "message": "Merge pull request #8989 from openlayers/greenkeeper/marked-0.5.2",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "80.4",
+        "frame_max": "741.3",
+        "frame_total": "55719.7",
+        "heap_used": "1795844.4",
+        "heap_total": "1924440.0"
+      }
+    }
+  },
+  "a137eabc5d5822aa9141992faae08fddee37a734": {
+    "hash": "a137eabc5d5822aa9141992faae08fddee37a734",
+    "date": "2018-11-20 09:24:06+0100",
+    "message": "Merge pull request #8990 from nicholas-l/remove-unneededCall",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "69.7",
+        "frame_max": "768.7",
+        "frame_total": "53753.8",
+        "heap_used": "1718526.0",
+        "heap_total": "1844568.0"
+      }
+    }
+  },
+  "c6be2c7ff5f6d7b64ec0011e6fc43b6c8e6a1524": {
+    "hash": "c6be2c7ff5f6d7b64ec0011e6fc43b6c8e6a1524",
+    "date": "2018-11-20 03:59:06-0800",
+    "message": "Merge pull request #8977 from jahow/add-webgl-rendering-tests",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "68.8",
+        "frame_max": "799.9",
+        "frame_total": "53637.7",
+        "heap_used": "1730779.9",
+        "heap_total": "1869144.0"
+      }
+    }
+  },
+  "60b3370bba26bf20674eff699654826bdd25f808": {
+    "hash": "60b3370bba26bf20674eff699654826bdd25f808",
+    "date": "2018-11-21 16:52:34+0100",
+    "message": "Merge pull request #8994 from fredj/misc",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "90.6",
+        "frame_max": "758.7",
+        "frame_total": "55802.8",
+        "heap_used": "1761396.8",
+        "heap_total": "1887064.0"
+      }
+    }
+  },
+  "7b6f86abc7ceb085f2d965f465e142cc36167da1": {
+    "hash": "7b6f86abc7ceb085f2d965f465e142cc36167da1",
+    "date": "2018-11-21 15:18:51-0700",
+    "message": "Merge pull request #8992 from tschaub/tilecoord",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "68.9",
+        "frame_max": "681.4",
+        "frame_total": "54407.1",
+        "heap_used": "1777812.6",
+        "heap_total": "1896792.0"
+      }
+    }
+  },
+  "5951e147c02b8526da0696f15b7dd166da4ca4c1": {
+    "hash": "5951e147c02b8526da0696f15b7dd166da4ca4c1",
+    "date": "2018-11-22 08:44:37+0100",
+    "message": "Merge pull request #8995 from fredj/vec_render_mode",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "79.1",
+        "frame_max": "707.9",
+        "frame_total": "55825.9",
+        "heap_used": "1778473.5",
+        "heap_total": "1891672.0"
+      }
+    }
+  },
+  "4910933a9b23c601350d3b696d72887fb5fe678f": {
+    "hash": "4910933a9b23c601350d3b696d72887fb5fe678f",
+    "date": "2018-11-23 14:29:51+0100",
+    "message": "Merge pull request #8996 from fredj/image-vector-ratio",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "81.2",
+        "frame_max": "700.0",
+        "frame_total": "56513.3",
+        "heap_used": "1812917.8",
+        "heap_total": "1937752.0"
+      }
+    }
+  },
+  "b71a8aa006a39dffa06d42fae78330d273656a01": {
+    "hash": "b71a8aa006a39dffa06d42fae78330d273656a01",
+    "date": "2018-11-25 14:51:42+0100",
+    "message": "Merge pull request #9002 from openlayers/fix-module-path",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "72.5",
+        "frame_max": "784.3",
+        "frame_total": "54883.4",
+        "heap_used": "1731747.6",
+        "heap_total": "1850200.0"
+      }
+    }
+  },
+  "b03a42c81a57089eb2ed95b1238cbd13e87c6aa8": {
+    "hash": "b03a42c81a57089eb2ed95b1238cbd13e87c6aa8",
+    "date": "2018-11-25 23:57:02+0100",
+    "message": "Merge pull request #9004 from openlayers/greenkeeper/webpack-4.26.1",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "67.6",
+        "frame_max": "731.7",
+        "frame_total": "53172.4",
+        "heap_used": "1715175.1",
+        "heap_total": "1834840.0"
+      }
+    }
+  },
+  "4b784f06e91f257e9574b9d0c9eb6a61f858c99a": {
+    "hash": "4b784f06e91f257e9574b9d0c9eb6a61f858c99a",
+    "date": "2018-11-26 12:10:40+0100",
+    "message": "Merge pull request #9003 from ahocevar/remove-duplicate-functions",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "62.3",
+        "frame_max": "771.1",
+        "frame_total": "51695.1",
+        "heap_used": "1673316.9",
+        "heap_total": "1801552.0"
+      }
+    }
+  },
+  "eaa29b2e6345bc85b65219b84e6b2e3c6cf19fb9": {
+    "hash": "eaa29b2e6345bc85b65219b84e6b2e3c6cf19fb9",
+    "date": "2018-11-27 13:50:38+0100",
+    "message": "Merge pull request #9005 from fredj/examples_import",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "73.2",
+        "frame_max": "718.1",
+        "frame_total": "55894.4",
+        "heap_used": "1805968.6",
+        "heap_total": "1932624.0"
+      }
+    }
+  },
+  "74225188f4c9163aea348e36cfca58fa8346ea24": {
+    "hash": "74225188f4c9163aea348e36cfca58fa8346ea24",
+    "date": "2018-11-27 12:58:15-0700",
+    "message": "Merge pull request #9009 from fredj/revert_9005",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "86.4",
+        "frame_max": "746.7",
+        "frame_total": "56853.7",
+        "heap_used": "1787844.6",
+        "heap_total": "1894224.0"
+      }
+    }
+  },
+  "85abe3695a48b10e26a9bbf95144e81e5888f448": {
+    "hash": "85abe3695a48b10e26a9bbf95144e81e5888f448",
+    "date": "2018-11-27 13:04:37-0700",
+    "message": "Merge pull request #9010 from fredj/ExecutorGroup_import",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "80.9",
+        "frame_max": "704.0",
+        "frame_total": "56392.3",
+        "heap_used": "1813992.5",
+        "heap_total": "1935696.0"
+      }
+    }
+  },
+  "aad836dfb2d09ee98627f3c8b3630888c503d94c": {
+    "hash": "aad836dfb2d09ee98627f3c8b3630888c503d94c",
+    "date": "2018-11-29 07:08:21+0100",
+    "message": "Merge pull request #9012 from fredj/misc",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "71.5",
+        "frame_max": "738.6",
+        "frame_total": "54455.2",
+        "heap_used": "1771746.8",
+        "heap_total": "1883472.0"
+      }
+    }
+  },
+  "65a10db4328ff198aaf66fa3e603ea6dc835eada": {
+    "hash": "65a10db4328ff198aaf66fa3e603ea6dc835eada",
+    "date": "2018-11-29 17:12:43+0100",
+    "message": "Merge pull request #9018 from OSHistory/docFixes",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "73.0",
+        "frame_max": "747.8",
+        "frame_total": "54701.3",
+        "heap_used": "1746539.6",
+        "heap_total": "1867088.0"
+      }
+    }
+  },
+  "e9e804a836d1886f21c4a01c4ed83caebb53c56f": {
+    "hash": "e9e804a836d1886f21c4a01c4ed83caebb53c56f",
+    "date": "2018-11-30 11:09:46+0100",
+    "message": "Merge pull request #9020 from ahocevar/remove-superfluous-settileurlfunction",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "61.2",
+        "frame_max": "778.7",
+        "frame_total": "52986.2",
+        "heap_used": "1746505.8",
+        "heap_total": "1880400.0"
+      }
+    }
+  },
+  "171f1a5bacb9aad43fc85494e4f605c26b0477b9": {
+    "hash": "171f1a5bacb9aad43fc85494e4f605c26b0477b9",
+    "date": "2018-11-30 15:53:27+0100",
+    "message": "Merge pull request #9022 from ahocevar/webgl-performance-caveat",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "84.0",
+        "frame_max": "784.0",
+        "frame_total": "56194.2",
+        "heap_used": "1773424.2",
+        "heap_total": "1897296.0"
+      }
+    }
+  },
+  "3944f0e62b44aa662e5324f26d1d28e51d9ad03c": {
+    "hash": "3944f0e62b44aa662e5324f26d1d28e51d9ad03c",
+    "date": "2018-11-30 21:38:43-0700",
+    "message": "Merge pull request #9023 from jahow/fix-webgl-points-layer",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "71.9",
+        "frame_max": "749.5",
+        "frame_total": "54531.0",
+        "heap_used": "1767975.4",
+        "heap_total": "1893712.0"
+      }
+    }
+  },
+  "3790007226941bf3449fc5f4e147d5fa9c8fd986": {
+    "hash": "3790007226941bf3449fc5f4e147d5fa9c8fd986",
+    "date": "2018-12-03 06:31:03+0100",
+    "message": "Merge pull request #9025 from ahocevar/render-event",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "68.3",
+        "frame_max": "739.7",
+        "frame_total": "54447.8",
+        "heap_used": "1741263.1",
+        "heap_total": "1860944.0"
+      }
+    }
+  },
+  "fd0e7782ed252e17ad2c74c68e1c3ddedc211697": {
+    "hash": "fd0e7782ed252e17ad2c74c68e1c3ddedc211697",
+    "date": "2018-12-03 06:31:33+0100",
+    "message": "Merge pull request #9026 from ahocevar/dependencies",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "68.5",
+        "frame_max": "766.7",
+        "frame_total": "54140.0",
+        "heap_used": "1743907.2",
+        "heap_total": "1869648.0"
+      }
+    }
+  },
+  "56201b9295732c0563c564bec301656d8963e7e6": {
+    "hash": "56201b9295732c0563c564bec301656d8963e7e6",
+    "date": "2018-12-03 20:48:21+0100",
+    "message": "Merge pull request #9029 from OSHistory/inheritDoc",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "72.5",
+        "frame_max": "743.0",
+        "frame_total": "55630.5",
+        "heap_used": "1784631.8",
+        "heap_total": "1908560.0"
+      }
+    }
+  },
+  "e92e03eb1b06640c2665664fa0a085b724b309a7": {
+    "hash": "e92e03eb1b06640c2665664fa0a085b724b309a7",
+    "date": "2018-12-04 13:13:48+0100",
+    "message": "Merge pull request #9032 from openlayers/greenkeeper/webpack-4.27.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "72.9",
+        "frame_max": "712.6",
+        "frame_total": "56358.1",
+        "heap_used": "1821692.7",
+        "heap_total": "1941840.0"
+      }
+    }
+  },
+  "b71e391e3b386633c2bc59bd15e12a4b0c4c6538": {
+    "hash": "b71e391e3b386633c2bc59bd15e12a4b0c4c6538",
+    "date": "2018-12-04 13:22:42+0100",
+    "message": "Merge pull request #9031 from ludvigeriksson/insertVertexCondition-fix",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "74.8",
+        "frame_max": "764.5",
+        "frame_total": "55061.2",
+        "heap_used": "1766068.5",
+        "heap_total": "1895248.0"
+      }
+    }
+  },
+  "9cf58e412f5651c73aacfa7e32463779295a9585": {
+    "hash": "9cf58e412f5651c73aacfa7e32463779295a9585",
+    "date": "2018-12-05 12:58:33+0100",
+    "message": "Merge pull request #9036 from ahocevar/modify-drag-segments",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "71.2",
+        "frame_max": "776.4",
+        "frame_total": "54553.2",
+        "heap_used": "1745362.4",
+        "heap_total": "1873232.0"
+      }
+    }
+  },
+  "e4e0e617314b9c37bc5786664f802c734a65a4f1": {
+    "hash": "e4e0e617314b9c37bc5786664f802c734a65a4f1",
+    "date": "2018-12-05 21:39:57+0100",
+    "message": "Merge pull request #9037 from openlayers/greenkeeper/webpack-4.27.1",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "83.2",
+        "frame_max": "771.1",
+        "frame_total": "55717.1",
+        "heap_used": "1767033.2",
+        "heap_total": "1891664.0"
+      }
+    }
+  },
+  "97ab5133a093d319e0219ccf52e28ce880461860": {
+    "hash": "97ab5133a093d319e0219ccf52e28ce880461860",
+    "date": "2018-12-06 14:50:47+0100",
+    "message": "Merge pull request #9028 from OSHistory/specifyArrayType",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "72.7",
+        "frame_max": "750.6",
+        "frame_total": "53772.9",
+        "heap_used": "1734355.4",
+        "heap_total": "1860432.0"
+      }
+    }
+  },
+  "1c4cfc9559ff0c2546e7914a197131b3f41345a2": {
+    "hash": "1c4cfc9559ff0c2546e7914a197131b3f41345a2",
+    "date": "2018-12-07 07:46:39+0100",
+    "message": "Merge pull request #9024 from ahocevar/imagelayer-events",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "71.2",
+        "frame_max": "762.4",
+        "frame_total": "54581.7",
+        "heap_used": "1757391.7",
+        "heap_total": "1874768.0"
+      }
+    }
+  },
+  "4ce5379a4b398d08be18aa2185839a801e2df53e": {
+    "hash": "4ce5379a4b398d08be18aa2185839a801e2df53e",
+    "date": "2018-12-07 07:58:40+0100",
+    "message": "Merge pull request #9039 from OSHistory/tsFunctionReturnVoid",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "69.3",
+        "frame_max": "765.8",
+        "frame_total": "54072.4",
+        "heap_used": "1750938.8",
+        "heap_total": "1883984.0"
+      }
+    }
+  },
+  "76bd75ebb10bcd3dbc92015b15902bea7a325a0b": {
+    "hash": "76bd75ebb10bcd3dbc92015b15902bea7a325a0b",
+    "date": "2018-12-07 09:36:27+0100",
+    "message": "Merge pull request #9042 from openlayers/opt_onBoxEnd",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "75.8",
+        "frame_max": "767.6",
+        "frame_total": "54480.3",
+        "heap_used": "1739431.0",
+        "heap_total": "1871184.0"
+      }
+    }
+  },
+  "30947c0de84123eb0c755680491a5becdf7390cb": {
+    "hash": "30947c0de84123eb0c755680491a5becdf7390cb",
+    "date": "2018-12-07 10:28:44+0100",
+    "message": "Merge pull request #9041 from jahow/fix-webgl-ff-bug",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "80.1",
+        "frame_max": "694.7",
+        "frame_total": "57082.0",
+        "heap_used": "1839580.4",
+        "heap_total": "1957200.0"
+      }
+    }
+  },
+  "d0f03f12575a71e4771fdd75699ed271f8e62460": {
+    "hash": "d0f03f12575a71e4771fdd75699ed271f8e62460",
+    "date": "2018-12-07 11:15:17+0100",
+    "message": "Merge pull request #9043 from openlayers/examples_types",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "85.8",
+        "frame_max": "777.7",
+        "frame_total": "56740.8",
+        "heap_used": "1817593.0",
+        "heap_total": "1943888.0"
+      }
+    }
+  },
+  "bbbed30848bcc36bfc894652b740ef90a1293152": {
+    "hash": "bbbed30848bcc36bfc894652b740ef90a1293152",
+    "date": "2018-12-07 13:06:27+0100",
+    "message": "Merge pull request #9044 from openlayers/indent",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "66.1",
+        "frame_max": "775.8",
+        "frame_total": "52578.6",
+        "heap_used": "1717815.4",
+        "heap_total": "1846608.0"
+      }
+    }
+  },
+  "89af80241ea73af874c9a4c0549f82a96b9b827c": {
+    "hash": "89af80241ea73af874c9a4c0549f82a96b9b827c",
+    "date": "2018-12-07 13:54:19+0100",
+    "message": "Merge pull request #9045 from openlayers/rm_CANVAS_LINE_DASH",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "79.8",
+        "frame_max": "721.1",
+        "frame_total": "55284.9",
+        "heap_used": "1786627.1",
+        "heap_total": "1911120.0"
+      }
+    }
+  },
+  "0cda18f58a5958c98346308e0ae72265677174d3": {
+    "hash": "0cda18f58a5958c98346308e0ae72265677174d3",
+    "date": "2018-12-07 14:33:54+0100",
+    "message": "Merge pull request #9008 from ahocevar/decouple-group-creation",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.0",
+        "frame_max": "3.0",
+        "frame_total": "1415.4",
+        "heap_used": "1742461.0",
+        "heap_total": "1796432.0"
+      }
+    }
+  },
+  "daa92c105df26323ac6ae27bddbd55f08c882e3e": {
+    "hash": "daa92c105df26323ac6ae27bddbd55f08c882e3e",
+    "date": "2018-12-12 14:10:59+0100",
+    "message": "Merge pull request #9055 from fredj/less_typecast",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.0",
+        "frame_max": "3.0",
+        "frame_total": "1387.5",
+        "heap_used": "1780750.9",
+        "heap_total": "1840464.0"
+      }
+    }
+  },
+  "68d4d244f3a1637952b53a659f4b24c9f7c6fc87": {
+    "hash": "68d4d244f3a1637952b53a659f4b24c9f7c6fc87",
+    "date": "2018-12-12 16:24:52+0100",
+    "message": "Merge pull request #9057 from fredj/feature_like",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.1",
+        "frame_max": "2.9",
+        "frame_total": "1414.7",
+        "heap_used": "1769522.5",
+        "heap_total": "1825616.0"
+      }
+    }
+  },
+  "e426af29c20c7b08ee323b2ee0f78d34b61c4c34": {
+    "hash": "e426af29c20c7b08ee323b2ee0f78d34b61c4c34",
+    "date": "2018-12-12 16:25:41+0100",
+    "message": "Merge pull request #9056 from fredj/rm_typecast",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.1",
+        "frame_max": "3.0",
+        "frame_total": "1411.4",
+        "heap_used": "1783546.3",
+        "heap_total": "1844048.0"
+      }
+    }
+  },
+  "193749f4fd1084d8ef94c579e6f8aab4a0e2bcb2": {
+    "hash": "193749f4fd1084d8ef94c579e6f8aab4a0e2bcb2",
+    "date": "2018-12-14 09:15:11+0100",
+    "message": "Merge pull request #9063 from oterral/master",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.3",
+        "frame_max": "12.4",
+        "frame_total": "1770.6",
+        "heap_used": "1788023.2",
+        "heap_total": "1838416.0"
+      }
+    }
+  },
+  "f948577a1aaed2aa297a5f5f95304179382ef4ff": {
+    "hash": "f948577a1aaed2aa297a5f5f95304179382ef4ff",
+    "date": "2018-12-14 09:36:12+0100",
+    "message": "Merge pull request #9060 from ahocevar/coordinate-convenience",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.1",
+        "frame_max": "3.3",
+        "frame_total": "1548.2",
+        "heap_used": "1766475.4",
+        "heap_total": "1820496.0"
+      }
+    }
+  },
+  "b546eafeae3bbb36900b0ffae49b39ed0c765104": {
+    "hash": "b546eafeae3bbb36900b0ffae49b39ed0c765104",
+    "date": "2018-12-14 14:56:23+0100",
+    "message": "Merge pull request #9064 from fredj/rm_atlas",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.0",
+        "frame_max": "2.9",
+        "frame_total": "1477.4",
+        "heap_used": "1748116.6",
+        "heap_total": "1802576.0"
+      }
+    }
+  },
+  "b4bd447d34a76472ce11d9266967308b98025ec0": {
+    "hash": "b4bd447d34a76472ce11d9266967308b98025ec0",
+    "date": "2018-12-17 08:29:58+0100",
+    "message": "Merge pull request #9066 from fredj/transformGeometryWithOptions",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.4",
+        "frame_max": "19.5",
+        "frame_total": "1963.1",
+        "heap_used": "1762670.9",
+        "heap_total": "1815888.0"
+      }
+    }
+  },
+  "348186e2f847eab31158bbbe7c9bebadb527832a": {
+    "hash": "348186e2f847eab31158bbbe7c9bebadb527832a",
+    "date": "2018-12-17 17:02:11+0100",
+    "message": "Merge pull request #9068 from fredj/mvt_types",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.7",
+        "frame_max": "28.4",
+        "frame_total": "2544.2",
+        "heap_used": "1728139.9",
+        "heap_total": "1781072.0"
+      }
+    }
+  },
+  "6967e5b60beb3f162efb222d856f883b4711e1c4": {
+    "hash": "6967e5b60beb3f162efb222d856f883b4711e1c4",
+    "date": "2018-12-18 21:57:02+0100",
+    "message": "Merge pull request #9070 from ludvigeriksson/remove-point-return-value",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.7",
+        "frame_max": "30.2",
+        "frame_total": "2410.7",
+        "heap_used": "1788280.6",
+        "heap_total": "1845072.0"
+      }
+    }
+  },
+  "100e69e2869dd1bc21568a3037d019455f856c6a": {
+    "hash": "100e69e2869dd1bc21568a3037d019455f856c6a",
+    "date": "2018-12-19 15:07:13+0100",
+    "message": "Merge pull request #9076 from openlayers/greenkeeper/webpack-4.28.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.0",
+        "frame_max": "3.4",
+        "frame_total": "1366.7",
+        "heap_used": "1788062.7",
+        "heap_total": "1839952.0"
+      }
+    }
+  },
+  "d8156577c941ab0d7f647e86dac1e7181db7e5f2": {
+    "hash": "d8156577c941ab0d7f647e86dac1e7181db7e5f2",
+    "date": "2018-12-21 00:13:40+0100",
+    "message": "Merge pull request #9080 from openlayers/greenkeeper/webpack-4.28.1",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.2",
+        "frame_max": "10.0",
+        "frame_total": "1730.7",
+        "heap_used": "1780811.8",
+        "heap_total": "1834832.0"
+      }
+    }
+  },
+  "8978d86f35ad5a3b3556fb617e569d0407bb5ec1": {
+    "hash": "8978d86f35ad5a3b3556fb617e569d0407bb5ec1",
+    "date": "2018-12-21 22:27:55+0100",
+    "message": "Merge pull request #9079 from ahocevar/fullscreen-event",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.0",
+        "frame_max": "2.9",
+        "frame_total": "1451.9",
+        "heap_used": "1774220.0",
+        "heap_total": "1834320.0"
+      }
+    }
+  },
+  "76b31be9fc516a4c38282af111ea424b236a9896": {
+    "hash": "76b31be9fc516a4c38282af111ea424b236a9896",
+    "date": "2018-12-22 19:42:16+0100",
+    "message": "Merge pull request #9085 from openlayers/greenkeeper/webpack-4.28.2",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.7",
+        "frame_max": "28.0",
+        "frame_total": "2354.2",
+        "heap_used": "1755854.8",
+        "heap_total": "1816912.0"
+      }
+    }
+  },
+  "435ef3070cb5f4b99834402a7b20f6b736b9cc39": {
+    "hash": "435ef3070cb5f4b99834402a7b20f6b736b9cc39",
+    "date": "2018-12-27 19:22:52+0100",
+    "message": "Merge pull request #9089 from ThomasG77/fix-rawgit",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.5",
+        "frame_max": "19.9",
+        "frame_total": "2117.3",
+        "heap_used": "1748406.1",
+        "heap_total": "1802576.0"
+      }
+    }
+  },
+  "ba49f2d2dba198337ec552b040494c905935dbbb": {
+    "hash": "ba49f2d2dba198337ec552b040494c905935dbbb",
+    "date": "2018-12-29 17:18:09+0100",
+    "message": "Merge pull request #9091 from jahow/fix-heatmap-ie",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.1",
+        "frame_max": "3.1",
+        "frame_total": "1407.6",
+        "heap_used": "1839672.6",
+        "heap_total": "1898320.0"
+      }
+    }
+  },
+  "117f0d21fc84d17b47007eee14d89d6353526e2a": {
+    "hash": "117f0d21fc84d17b47007eee14d89d6353526e2a",
+    "date": "2018-12-29 21:53:34-0700",
+    "message": "Merge pull request #9092 from openlayers/greenkeeper/webpack-4.28.3",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.0",
+        "frame_max": "3.0",
+        "frame_total": "1399.0",
+        "heap_used": "1819922.2",
+        "heap_total": "1876816.0"
+      }
+    }
+  },
+  "511e580c76ecb6f3cd46e416e04d5c0351d80851": {
+    "hash": "511e580c76ecb6f3cd46e416e04d5c0351d80851",
+    "date": "2018-12-29 22:12:12-0700",
+    "message": "Merge pull request #9090 from jahow/add-webgl-points-example",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.6",
+        "frame_max": "14.1",
+        "frame_total": "2208.7",
+        "heap_used": "1743377.8",
+        "heap_total": "1801552.0"
+      }
+    }
+  },
+  "06e30e8884f08a93494eb0d3fd23a04af7e626eb": {
+    "hash": "06e30e8884f08a93494eb0d3fd23a04af7e626eb",
+    "date": "2018-12-31 11:24:33+0100",
+    "message": "Merge pull request #9083 from ahocevar/fix-draw-condition",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.7",
+        "frame_max": "27.8",
+        "frame_total": "2293.5",
+        "heap_used": "1795657.1",
+        "heap_total": "1849680.0"
+      }
+    }
+  },
+  "a94632376c6cc53320cf4912307b3f86d8f8ba7f": {
+    "hash": "a94632376c6cc53320cf4912307b3f86d8f8ba7f",
+    "date": "2019-01-01 08:16:11-0700",
+    "message": "Merge pull request #9095 from openlayers/greenkeeper/marked-0.6.0",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.1",
+        "frame_max": "3.2",
+        "frame_total": "1329.9",
+        "heap_used": "1863972.8",
+        "heap_total": "1921360.0"
+      }
+    }
+  },
+  "3e1fce0e225ea2d34749bdf4514c878713fc7aaa": {
+    "hash": "3e1fce0e225ea2d34749bdf4514c878713fc7aaa",
+    "date": "2019-01-02 07:10:31+0100",
+    "message": "Merge pull request #9098 from ahocevar/jsdoc-plugin",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.0",
+        "frame_max": "3.2",
+        "frame_total": "1487.7",
+        "heap_used": "1755363.7",
+        "heap_total": "1808208.0"
+      }
+    }
+  },
+  "ad794cea145ba6cc30ff571065043757ec50009c": {
+    "hash": "ad794cea145ba6cc30ff571065043757ec50009c",
+    "date": "2019-01-06 19:41:46+0100",
+    "message": "Merge pull request #9099 from ahocevar/tracking-opt-out",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.8",
+        "frame_max": "19.8",
+        "frame_total": "2319.0",
+        "heap_used": "1848047.7",
+        "heap_total": "1894224.0"
+      }
+    }
+  },
+  "0f3e410428af45c89047ab38dd3940979688a005": {
+    "hash": "0f3e410428af45c89047ab38dd3940979688a005",
+    "date": "2019-01-07 10:11:08+0100",
+    "message": "Merge pull request #9101 from ahocevar/load-tiles-while-animating-and-interacting",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.3",
+        "frame_max": "3.5",
+        "frame_total": "948.8",
+        "heap_used": "2053224.9",
+        "heap_total": "2075984.0"
+      }
+    }
+  },
+  "cf6b1ca1cc48d15b105471f2e3ec12b42052d986": {
+    "hash": "cf6b1ca1cc48d15b105471f2e3ec12b42052d986",
+    "date": "2019-01-07 10:11:52+0100",
+    "message": "Merge pull request #9072 from fredj/rm_layerStates",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.5",
+        "frame_max": "8.8",
+        "frame_total": "1321.4",
+        "heap_used": "2032070.1",
+        "heap_total": "2047312.0"
+      }
+    }
+  },
+  "831c7621c751074fabc9581bee48adddf16df866": {
+    "hash": "831c7621c751074fabc9581bee48adddf16df866",
+    "date": "2019-01-07 13:08:31+0100",
+    "message": "Merge pull request #9102 from openlayers/f_9100",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "1.3",
+        "frame_max": "2.9",
+        "frame_total": "1019.1",
+        "heap_used": "2068650.7",
+        "heap_total": "2121040.0"
+      }
+    }
+  },
+  "c8df836ce1c70ed64900be81581626609344073a": {
+    "hash": "c8df836ce1c70ed64900be81581626609344073a",
+    "date": "2019-01-09 13:58:13+0100",
+    "message": "Merge pull request #9058 from ahocevar/slim-vectorimagetile",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "35.5",
+        "frame_max": "238.9",
+        "frame_total": "20171.4",
+        "heap_used": "1907645.6",
+        "heap_total": "1949008.0"
+      }
+    }
+  },
+  "4e8048cbd6ee750dc81bf39e962358901041883a": {
+    "hash": "4e8048cbd6ee750dc81bf39e962358901041883a",
+    "date": "2019-01-10 15:57:48+0100",
+    "message": "Merge pull request #9107 from webgeodatavore/fix-cgiar-csi",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "32.8",
+        "frame_max": "211.0",
+        "frame_total": "17301.4",
+        "heap_used": "1863652.2",
+        "heap_total": "1890128.0"
+      }
+    }
+  },
+  "6258b6efc426e0e8a51f8cee3808a7ab7f9f0fec": {
+    "hash": "6258b6efc426e0e8a51f8cee3808a7ab7f9f0fec",
+    "date": "2019-01-11 08:46:36+0100",
+    "message": "Merge pull request #9108 from openlayers/greenkeeper/webpack-4.28.4",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "39.2",
+        "frame_max": "276.6",
+        "frame_total": "19639.8",
+        "heap_used": "1986276.0",
+        "heap_total": "2004816.0"
+      }
+    }
+  },
+  "e6ca241a27c9a007395609114b98185870a356ec": {
+    "hash": "e6ca241a27c9a007395609114b98185870a356ec",
+    "date": "2019-01-11 18:36:59+0100",
+    "message": "Merge pull request #9103 from ahocevar/fix-examples",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "35.4",
+        "frame_max": "252.1",
+        "frame_total": "19348.3",
+        "heap_used": "1966031.7",
+        "heap_total": "2010448.0"
+      }
+    }
+  },
+  "79f5283ce9bce8f64a1f22103aebf963d9072d58": {
+    "hash": "79f5283ce9bce8f64a1f22103aebf963d9072d58",
+    "date": "2019-01-14 10:58:42+0100",
+    "message": "Merge pull request #9112 from ahocevar/preparetile-listener",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.1",
+        "frame_max": "97.4",
+        "frame_total": "10955.9",
+        "heap_used": "2011473.0",
+        "heap_total": "2029392.0"
+      }
+    }
+  },
+  "aa0bc8175b048a953047ea44ab0a33fbbfc5b511": {
+    "hash": "aa0bc8175b048a953047ea44ab0a33fbbfc5b511",
+    "date": "2019-01-14 18:05:23+0100",
+    "message": "Merge pull request #9109 from JosephSamela/master",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.1",
+        "frame_max": "103.3",
+        "frame_total": "11601.6",
+        "heap_used": "2010982.6",
+        "heap_total": "2027856.0"
+      }
+    }
+  },
+  "2364a75f20e3db81129ddd0bdd522df8c4892887": {
+    "hash": "2364a75f20e3db81129ddd0bdd522df8c4892887",
+    "date": "2019-01-15 09:18:41+0100",
+    "message": "Merge pull request #9114 from ahocevar/extent-garbage",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.5",
+        "frame_max": "111.7",
+        "frame_total": "11291.1",
+        "heap_used": "2010175.1",
+        "heap_total": "2025808.0"
+      }
+    }
+  },
+  "62f270a172ca972cdb23fe362357249b9de52a1b": {
+    "hash": "62f270a172ca972cdb23fe362357249b9de52a1b",
+    "date": "2019-01-15 09:49:23+0100",
+    "message": "Merge pull request #9118 from fredj/format_read_no_event",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.2",
+        "frame_max": "117.1",
+        "frame_total": "11446.6",
+        "heap_used": "2010908.2",
+        "heap_total": "2051408.0"
+      }
+    }
+  },
+  "be03ac4c50f73a6e3c85b1cee4026a474d4a85c8": {
+    "hash": "be03ac4c50f73a6e3c85b1cee4026a474d4a85c8",
+    "date": "2019-01-18 08:31:49+0100",
+    "message": "Merge pull request #9120 from fredj/update_dev_deps",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.9",
+        "frame_max": "104.9",
+        "frame_total": "11103.8",
+        "heap_used": "2005647.1",
+        "heap_total": "2020176.0"
+      }
+    }
+  },
+  "576fc015a6ee7a7b21303b58c7dca21e7d45746e": {
+    "hash": "576fc015a6ee7a7b21303b58c7dca21e7d45746e",
+    "date": "2019-01-20 19:47:07+0100",
+    "message": "Merge pull request #9127 from openlayers/greenkeeper/webpack-4.29.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.8",
+        "frame_max": "105.3",
+        "frame_total": "11453.0",
+        "heap_used": "2014727.9",
+        "heap_total": "2037584.0"
+      }
+    }
+  },
+  "0daa27eab39db00d83b8d6dc9e13a74566574b66": {
+    "hash": "0daa27eab39db00d83b8d6dc9e13a74566574b66",
+    "date": "2019-01-20 19:47:31+0100",
+    "message": "Merge pull request #9124 from openlayers/greenkeeper/sinon-7.2.3",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.4",
+        "frame_max": "116.1",
+        "frame_total": "11430.8",
+        "heap_used": "2025881.3",
+        "heap_total": "2055504.0"
+      }
+    }
+  },
+  "1d4a767f86930d5b204aa4da71ea0cd374f2678b": {
+    "hash": "1d4a767f86930d5b204aa4da71ea0cd374f2678b",
+    "date": "2019-01-21 14:14:39+0100",
+    "message": "Merge pull request #9128 from ahocevar/less-render-cycles",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.5",
+        "frame_max": "103.5",
+        "frame_total": "11389.3",
+        "heap_used": "2035791.2",
+        "heap_total": "2077520.0"
+      }
+    }
+  },
+  "2078b5d355863c63334a907e203ce4d1f58bdc11": {
+    "hash": "2078b5d355863c63334a907e203ce4d1f58bdc11",
+    "date": "2019-01-21 14:29:44+0100",
+    "message": "Merge pull request #9129 from fredj/tmp_array",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "104.5",
+        "frame_total": "11609.5",
+        "heap_used": "1988437.1",
+        "heap_total": "2027344.0"
+      }
+    }
+  },
+  "ab04df8f9d237c53833470b2feadf90e99efdb73": {
+    "hash": "ab04df8f9d237c53833470b2feadf90e99efdb73",
+    "date": "2019-01-22 10:46:38+0100",
+    "message": "Merge pull request #9133 from ahocevar/smart-tile-cache",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.9",
+        "frame_max": "118.3",
+        "frame_total": "11510.8",
+        "heap_used": "2007719.6",
+        "heap_total": "2029904.0"
+      }
+    }
+  },
+  "63c079257ff48342be9b353442a95472861aee97": {
+    "hash": "63c079257ff48342be9b353442a95472861aee97",
+    "date": "2019-01-22 18:04:08-0700",
+    "message": "Merge pull request #9013 from weskamm/scalebar",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.6",
+        "frame_max": "114.1",
+        "frame_total": "11451.5",
+        "heap_used": "1970723.7",
+        "heap_total": "1992528.0"
+      }
+    }
+  },
+  "ea45068335bbc1e074acf090e22f7880894b0c4b": {
+    "hash": "ea45068335bbc1e074acf090e22f7880894b0c4b",
+    "date": "2019-01-23 08:32:11+0100",
+    "message": "Merge pull request #9131 from fredj/opacity_cmp",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.1",
+        "frame_max": "110.6",
+        "frame_total": "11143.5",
+        "heap_used": "1958215.8",
+        "heap_total": "1973584.0"
+      }
+    }
+  },
+  "ba0ffea262ed4411d695b9c3b4db57744d0dc26e": {
+    "hash": "ba0ffea262ed4411d695b9c3b4db57744d0dc26e",
+    "date": "2019-01-23 20:33:49+0100",
+    "message": "Merge pull request #9148 from openlayers/greenkeeper/karma-4.0.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.1",
+        "frame_max": "107.3",
+        "frame_total": "11379.9",
+        "heap_used": "2044864.1",
+        "heap_total": "2065232.0"
+      }
+    }
+  },
+  "f74e56c93957cb800983f741dd51740b475fb181": {
+    "hash": "f74e56c93957cb800983f741dd51740b475fb181",
+    "date": "2019-01-24 09:07:32+0100",
+    "message": "Merge pull request #9149 from ahocevar/label-consumers",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.5",
+        "frame_max": "116.0",
+        "frame_total": "11817.1",
+        "heap_used": "1969208.1",
+        "heap_total": "2000208.0"
+      }
+    }
+  },
+  "3e6425db8663237a5d093a015063a180017831eb": {
+    "hash": "3e6425db8663237a5d093a015063a180017831eb",
+    "date": "2019-01-24 10:33:40+0100",
+    "message": "Merge pull request #9150 from ahocevar/no-clipping",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "101.9",
+        "frame_total": "11546.9",
+        "heap_used": "2016761.2",
+        "heap_total": "2042704.0"
+      }
+    }
+  },
+  "862553509a159969c1f91dc12538a6f031e21e1f": {
+    "hash": "862553509a159969c1f91dc12538a6f031e21e1f",
+    "date": "2019-01-25 13:55:45+0100",
+    "message": "Merge pull request #9154 from ahocevar/screen-self",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.0",
+        "frame_max": "111.2",
+        "frame_total": "11369.4",
+        "heap_used": "2003115.9",
+        "heap_total": "2025296.0"
+      }
+    }
+  },
+  "61b20da5394fe46b0ea87ea718631e76a8a0c5bf": {
+    "hash": "61b20da5394fe46b0ea87ea718631e76a8a0c5bf",
+    "date": "2019-01-25 17:03:42+0100",
+    "message": "Merge pull request #9152 from ahocevar/vectortile-optimizations",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.7",
+        "frame_max": "111.7",
+        "frame_total": "11338.4",
+        "heap_used": "1901824.7",
+        "heap_total": "1916240.0"
+      }
+    }
+  },
+  "8674da9a3e12ea45722d1c1973c2facd4d9014df": {
+    "hash": "8674da9a3e12ea45722d1c1973c2facd4d9014df",
+    "date": "2019-01-28 11:01:07+0100",
+    "message": "Merge pull request #9157 from fredj/rm_inherits",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.3",
+        "frame_max": "105.9",
+        "frame_total": "10866.8",
+        "heap_used": "1987310.0",
+        "heap_total": "2020688.0"
+      }
+    }
+  },
+  "5e7cf6da6629de04ab4fc156c162778e1adf411f": {
+    "hash": "5e7cf6da6629de04ab4fc156c162778e1adf411f",
+    "date": "2019-01-28 21:27:36+0100",
+    "message": "Merge pull request #9164 from KlausBenndorf/doc",
+    "author_name": "Marc Jansen",
+    "author_email": "jansen@terrestris.de",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.0",
+        "frame_max": "113.4",
+        "frame_total": "11584.3",
+        "heap_used": "2019990.5",
+        "heap_total": "2056016.0"
+      }
+    }
+  },
+  "b76626071bbe59557e934dadd0800ba02dad4735": {
+    "hash": "b76626071bbe59557e934dadd0800ba02dad4735",
+    "date": "2019-01-30 12:44:08+0100",
+    "message": "Merge pull request #9167 from ahocevar/jsdoc-fixes",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "106.8",
+        "frame_total": "11403.2",
+        "heap_used": "2011486.2",
+        "heap_total": "2025808.0"
+      }
+    }
+  },
+  "53fc082fc2c0480eb5f01cfa9f55430eb60b6e5e": {
+    "hash": "53fc082fc2c0480eb5f01cfa9f55430eb60b6e5e",
+    "date": "2019-01-31 15:50:39+0100",
+    "message": "Merge pull request #9173 from ahocevar/render-event-docs",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.8",
+        "frame_max": "118.4",
+        "frame_total": "11711.3",
+        "heap_used": "2002813.6",
+        "heap_total": "2018128.0"
+      }
+    }
+  },
+  "47adce478697c8c9dc08418cb6ef963799f39d79": {
+    "hash": "47adce478697c8c9dc08418cb6ef963799f39d79",
+    "date": "2019-02-04 13:02:35+0100",
+    "message": "Merge pull request #9181 from ahocevar/test-removefeature-on-point",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "107.9",
+        "frame_total": "11147.4",
+        "heap_used": "1975237.3",
+        "heap_total": "2029904.0"
+      }
+    }
+  },
+  "83e7e3ad5c45046e3a57dd3cd59472c6255564d7": {
+    "hash": "83e7e3ad5c45046e3a57dd3cd59472c6255564d7",
+    "date": "2019-02-04 13:55:04+0100",
+    "message": "Merge pull request #9178 from ahocevar/sources-for-typescript",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "104.0",
+        "frame_total": "11339.7",
+        "heap_used": "2005867.8",
+        "heap_total": "2047312.0"
+      }
+    }
+  },
+  "e34806ad703056dcc3ca3c3a5289dcefc9fefcb4": {
+    "hash": "e34806ad703056dcc3ca3c3a5289dcefc9fefcb4",
+    "date": "2019-02-05 09:21:22+0100",
+    "message": "Merge pull request #9185 from openlayers/greenkeeper/webpack-4.29.1",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.5",
+        "frame_max": "105.2",
+        "frame_total": "11467.0",
+        "heap_used": "2013123.0",
+        "heap_total": "2054480.0"
+      }
+    }
+  },
+  "e0aad192af709561fb08107b02e032563af5120f": {
+    "hash": "e0aad192af709561fb08107b02e032563af5120f",
+    "date": "2019-02-05 09:22:03+0100",
+    "message": "Merge pull request #9184 from fredj/devDependencies",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.2",
+        "frame_max": "104.2",
+        "frame_total": "11011.9",
+        "heap_used": "2024041.6",
+        "heap_total": "2041168.0"
+      }
+    }
+  },
+  "2428c0984ee5a25416031d32e05d2f9c4701f9f0": {
+    "hash": "2428c0984ee5a25416031d32e05d2f9c4701f9f0",
+    "date": "2019-02-05 10:07:52+0100",
+    "message": "Merge pull request #9161 from fredj/template_type",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.9",
+        "frame_max": "108.8",
+        "frame_total": "11214.3",
+        "heap_used": "2004156.3",
+        "heap_total": "2025296.0"
+      }
+    }
+  },
+  "2c3ffdfdf8c79a20497c5056ea1fc3e5a911fdfc": {
+    "hash": "2c3ffdfdf8c79a20497c5056ea1fc3e5a911fdfc",
+    "date": "2019-02-05 10:57:36+0100",
+    "message": "Merge pull request #9186 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.8",
+        "frame_max": "101.7",
+        "frame_total": "10407.0",
+        "heap_used": "1977103.5",
+        "heap_total": "2008912.0"
+      }
+    }
+  },
+  "caa9153dd0c82a11ddf9db3107bc331afa851277": {
+    "hash": "caa9153dd0c82a11ddf9db3107bc331afa851277",
+    "date": "2019-02-05 16:36:16+0100",
+    "message": "Merge pull request #9187 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "104.5",
+        "frame_total": "11548.5",
+        "heap_used": "2002805.8",
+        "heap_total": "2035536.0"
+      }
+    }
+  },
+  "88c213078ea1c3f9f12dfcb59fd2dc70607db416": {
+    "hash": "88c213078ea1c3f9f12dfcb59fd2dc70607db416",
+    "date": "2019-02-05 20:29:15+0100",
+    "message": "Merge pull request #9179 from gberaudo/allow_image_declutter",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.2",
+        "frame_max": "114.1",
+        "frame_total": "11219.7",
+        "heap_used": "1964570.2",
+        "heap_total": "1987408.0"
+      }
+    }
+  },
+  "be16c2357d2bfe007bfa00d558cbef69d27d293e": {
+    "hash": "be16c2357d2bfe007bfa00d558cbef69d27d293e",
+    "date": "2019-02-05 20:43:37+0100",
+    "message": "Merge pull request #9190 from romanzoller/multi-polygon-area",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.5",
+        "frame_max": "116.4",
+        "frame_total": "12143.0",
+        "heap_used": "2000712.0",
+        "heap_total": "2025296.0"
+      }
+    }
+  },
+  "f4fe1babd25c64f5530e13c9822279f3ff47ed0b": {
+    "hash": "f4fe1babd25c64f5530e13c9822279f3ff47ed0b",
+    "date": "2019-02-07 11:08:44+0100",
+    "message": "Merge pull request #9194 from openlayers/greenkeeper/webpack-4.29.3",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.9",
+        "frame_max": "117.8",
+        "frame_total": "11172.1",
+        "heap_used": "1968424.5",
+        "heap_total": "1992016.0"
+      }
+    }
+  },
+  "bfe8ee5309780417a43831145661095c41959443": {
+    "hash": "bfe8ee5309780417a43831145661095c41959443",
+    "date": "2019-02-07 12:50:05+0100",
+    "message": "Merge pull request #9195 from openlayers/greenkeeper/handlebars-4.1.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.7",
+        "frame_max": "101.8",
+        "frame_total": "10894.2",
+        "heap_used": "1987491.4",
+        "heap_total": "2030928.0"
+      }
+    }
+  },
+  "d1c71c3c61c5407ae38dff654b67a033fb47ec51": {
+    "hash": "d1c71c3c61c5407ae38dff654b67a033fb47ec51",
+    "date": "2019-02-07 15:32:32+0100",
+    "message": "Merge pull request #9196 from ahocevar/pointresolution-scaleline",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.4",
+        "frame_max": "107.2",
+        "frame_total": "11530.9",
+        "heap_used": "1952644.9",
+        "heap_total": "1975632.0"
+      }
+    }
+  },
+  "f6e625f21a7cc38837387d9a5b6008cca38a77d9": {
+    "hash": "f6e625f21a7cc38837387d9a5b6008cca38a77d9",
+    "date": "2019-02-08 08:43:31+0100",
+    "message": "Merge pull request #9197 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.3",
+        "frame_max": "122.6",
+        "frame_total": "12216.3",
+        "heap_used": "2029427.4",
+        "heap_total": "2078544.0"
+      }
+    }
+  },
+  "680f3cde3c9ed33c22e1868578b85e5a3d822d33": {
+    "hash": "680f3cde3c9ed33c22e1868578b85e5a3d822d33",
+    "date": "2019-02-10 09:55:25+0100",
+    "message": "Merge pull request #9200 from ahocevar/vectorimage-note",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.0",
+        "frame_max": "110.9",
+        "frame_total": "11454.5",
+        "heap_used": "2031526.7",
+        "heap_total": "2072912.0"
+      }
+    }
+  },
+  "693c763710156064422ef08c62e91ca457da83bf": {
+    "hash": "693c763710156064422ef08c62e91ca457da83bf",
+    "date": "2019-02-10 22:42:42+0100",
+    "message": "Merge pull request #9203 from ahocevar/intellisense-notes",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.6",
+        "frame_max": "112.0",
+        "frame_total": "11277.8",
+        "heap_used": "2014294.6",
+        "heap_total": "2040144.0"
+      }
+    }
+  },
+  "7d5b2d8c3bfbd04cf75eb6030cf92cb03c423769": {
+    "hash": "7d5b2d8c3bfbd04cf75eb6030cf92cb03c423769",
+    "date": "2019-02-10 22:50:32+0100",
+    "message": "Merge pull request #9204 from ahocevar/intellisense-notes-addendum",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.9",
+        "frame_max": "116.2",
+        "frame_total": "11845.9",
+        "heap_used": "2010200.3",
+        "heap_total": "2036048.0"
+      }
+    }
+  },
+  "b71d7773d3cafb676b2d442bc548b70bd6d74cba": {
+    "hash": "b71d7773d3cafb676b2d442bc548b70bd6d74cba",
+    "date": "2019-02-11 11:05:20+0100",
+    "message": "Merge pull request #9201 from ahocevar/drawable-child-range",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "24.3",
+        "frame_max": "108.6",
+        "frame_total": "11460.5",
+        "heap_used": "2004715.5",
+        "heap_total": "2021712.0"
+      }
+    }
+  },
+  "0a005527e79e368d6618c81d2270ad19c1443592": {
+    "hash": "0a005527e79e368d6618c81d2270ad19c1443592",
+    "date": "2019-02-14 07:46:17+0100",
+    "message": "Merge pull request #9207 from openlayers/greenkeeper/yargs-13.1.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.8",
+        "frame_max": "108.0",
+        "frame_total": "11240.8",
+        "heap_used": "1968869.9",
+        "heap_total": "1989456.0"
+      }
+    }
+  },
+  "666c14d1901c333077e511d714d51d5867bda009": {
+    "hash": "666c14d1901c333077e511d714d51d5867bda009",
+    "date": "2019-02-14 09:41:15+0100",
+    "message": "Merge pull request #9212 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "24.1",
+        "frame_max": "122.6",
+        "frame_total": "11771.9",
+        "heap_used": "2010836.6",
+        "heap_total": "2025808.0"
+      }
+    }
+  },
+  "27d025327f7d68500347abe3317f2fb4b5ad3498": {
+    "hash": "27d025327f7d68500347abe3317f2fb4b5ad3498",
+    "date": "2019-02-15 08:47:59+0100",
+    "message": "Merge pull request #9217 from fredj/f_9211",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "24.3",
+        "frame_max": "101.4",
+        "frame_total": "10815.4",
+        "heap_used": "2008865.2",
+        "heap_total": "2040144.0"
+      }
+    }
+  },
+  "f28b7c7bcf37dad909155324914ecd04ed8f8602": {
+    "hash": "f28b7c7bcf37dad909155324914ecd04ed8f8602",
+    "date": "2019-02-15 09:34:57+0100",
+    "message": "Merge pull request #9220 from fredj/rm_extra_canvas_resize",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.5",
+        "frame_max": "113.3",
+        "frame_total": "11377.8",
+        "heap_used": "2015952.9",
+        "heap_total": "2041680.0"
+      }
+    }
+  },
+  "a2a3bda5c93c565edef86588f55f80abc135aad4": {
+    "hash": "a2a3bda5c93c565edef86588f55f80abc135aad4",
+    "date": "2019-02-15 09:45:26+0100",
+    "message": "Merge pull request #9221 from ahocevar/remove-unused-sortbyzindex",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.4",
+        "frame_max": "118.2",
+        "frame_total": "12274.5",
+        "heap_used": "2011626.7",
+        "heap_total": "2039632.0"
+      }
+    }
+  },
+  "3da449d77e6fa76fcdceae7bdbdde61d429455bd": {
+    "hash": "3da449d77e6fa76fcdceae7bdbdde61d429455bd",
+    "date": "2019-02-15 12:49:08+0100",
+    "message": "Merge pull request #9222 from fredj/devDependencies",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.1",
+        "frame_max": "115.4",
+        "frame_total": "11876.8",
+        "heap_used": "2012827.2",
+        "heap_total": "2034000.0"
+      }
+    }
+  },
+  "e4264b94ed009d44f87577c0b6fead6d45d90483": {
+    "hash": "e4264b94ed009d44f87577c0b6fead6d45d90483",
+    "date": "2019-02-15 16:09:24+0100",
+    "message": "Merge pull request #9224 from fredj/less_vendor_prefix",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.6",
+        "frame_max": "119.2",
+        "frame_total": "12089.2",
+        "heap_used": "2004770.8",
+        "heap_total": "2026832.0"
+      }
+    }
+  },
+  "f7b1fe07d0de786b576c26210793457101c00907": {
+    "hash": "f7b1fe07d0de786b576c26210793457101c00907",
+    "date": "2019-02-16 17:46:04+0100",
+    "message": "Merge pull request #9225 from openlayers/greenkeeper/webpack-4.29.4",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.1",
+        "frame_max": "101.1",
+        "frame_total": "11309.7",
+        "heap_used": "2023394.7",
+        "heap_total": "2061648.0"
+      }
+    }
+  },
+  "45b2e8885a1973c09645f3c48531467abb21c439": {
+    "hash": "45b2e8885a1973c09645f3c48531467abb21c439",
+    "date": "2019-02-18 13:48:25+0100",
+    "message": "Merge pull request #9231 from ahocevar/vectortile-extent",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.5",
+        "frame_max": "114.3",
+        "frame_total": "11206.8",
+        "heap_used": "1962578.7",
+        "heap_total": "1978192.0"
+      }
+    }
+  },
+  "ec6371d7a03057ca04d095a53206a1f4364fdc26": {
+    "hash": "ec6371d7a03057ca04d095a53206a1f4364fdc26",
+    "date": "2019-02-18 14:41:58+0100",
+    "message": "Merge pull request #9232 from openlayers/greenkeeper/webpack-4.29.5",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "115.0",
+        "frame_total": "11296.2",
+        "heap_used": "1981894.1",
+        "heap_total": "1997136.0"
+      }
+    }
+  },
+  "658a4a9194c7b3d87947865ba456455093c4b0cd": {
+    "hash": "658a4a9194c7b3d87947865ba456455093c4b0cd",
+    "date": "2019-02-18 15:35:42+0100",
+    "message": "Merge pull request #9233 from fredj/rm_deprecated",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.8",
+        "frame_max": "117.0",
+        "frame_total": "11279.1",
+        "heap_used": "1973034.7",
+        "heap_total": "2009936.0"
+      }
+    }
+  },
+  "ffa24bfd22e74c42ccfb70ddf5733e7bc459d3c5": {
+    "hash": "ffa24bfd22e74c42ccfb70ddf5733e7bc459d3c5",
+    "date": "2019-02-18 23:57:33+0100",
+    "message": "Merge pull request #9238 from openlayers/greenkeeper/mocha-6.0.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.2",
+        "frame_max": "105.1",
+        "frame_total": "11393.9",
+        "heap_used": "1977350.7",
+        "heap_total": "2010448.0"
+      }
+    }
+  },
+  "b01970cb86c3ff5c96dadd4ada1a218d5c47fc1d": {
+    "hash": "b01970cb86c3ff5c96dadd4ada1a218d5c47fc1d",
+    "date": "2019-02-19 09:26:46+0100",
+    "message": "Merge pull request #9236 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.3",
+        "frame_max": "107.3",
+        "frame_total": "11293.6",
+        "heap_used": "2015232.3",
+        "heap_total": "2040144.0"
+      }
+    }
+  },
+  "3c64018b3754cf605ea19cbbe4c8813304da2539": {
+    "hash": "3c64018b3754cf605ea19cbbe4c8813304da2539",
+    "date": "2019-02-19 09:43:13+0100",
+    "message": "Merge pull request #9239 from ahocevar/tests-puppeteer",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.3",
+        "frame_max": "117.8",
+        "frame_total": "11881.2",
+        "heap_used": "2016766.6",
+        "heap_total": "2043728.0"
+      }
+    }
+  },
+  "84995c688cd803402cf623a711734902147c05fc": {
+    "hash": "84995c688cd803402cf623a711734902147c05fc",
+    "date": "2019-02-19 11:46:26+0100",
+    "message": "Merge pull request #9237 from umbe1987/export-to-pdf-example",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.3",
+        "frame_max": "106.8",
+        "frame_total": "11346.7",
+        "heap_used": "2036995.7",
+        "heap_total": "2056528.0"
+      }
+    }
+  },
+  "7c1e16abc3c5c27d31f0cbc6e87701eafeac7743": {
+    "hash": "7c1e16abc3c5c27d31f0cbc6e87701eafeac7743",
+    "date": "2019-02-19 12:58:07+0100",
+    "message": "Merge pull request #9230 from ahocevar/hitdetect-declutter",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "25.1",
+        "frame_max": "121.2",
+        "frame_total": "10988.3",
+        "heap_used": "2016285.2",
+        "heap_total": "2039632.0"
+      }
+    }
+  },
+  "4cb3e24048791cf1719391b2a5496b92a9df5d86": {
+    "hash": "4cb3e24048791cf1719391b2a5496b92a9df5d86",
+    "date": "2019-02-19 15:29:00+0100",
+    "message": "Merge pull request #9240 from fredj/text_rotateWithView",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "24.0",
+        "frame_max": "114.8",
+        "frame_total": "11659.8",
+        "heap_used": "2013867.2",
+        "heap_total": "2038608.0"
+      }
+    }
+  },
+  "071e9a47357dbc51c8abec8c36fc74d8830f3a31": {
+    "hash": "071e9a47357dbc51c8abec8c36fc74d8830f3a31",
+    "date": "2019-02-20 08:42:13+0100",
+    "message": "Merge pull request #9242 from openlayers/greenkeeper/marked-0.6.1",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.0",
+        "frame_max": "109.9",
+        "frame_total": "10878.7",
+        "heap_used": "1977397.2",
+        "heap_total": "2015568.0"
+      }
+    }
+  },
+  "62d82411c807dc3307f1428868c35f05d8431062": {
+    "hash": "62d82411c807dc3307f1428868c35f05d8431062",
+    "date": "2019-02-20 11:30:11+0100",
+    "message": "Merge pull request #9244 from huyngkh/stylus-support",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.6",
+        "frame_max": "108.4",
+        "frame_total": "10868.0",
+        "heap_used": "1964791.8",
+        "heap_total": "2001744.0"
+      }
+    }
+  },
+  "959dba169d375033490fa740b11b2b4e7f51cad1": {
+    "hash": "959dba169d375033490fa740b11b2b4e7f51cad1",
+    "date": "2019-02-21 00:29:42+0100",
+    "message": "Merge pull request #9110 from crubier/master",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.4",
+        "frame_max": "97.5",
+        "frame_total": "11108.3",
+        "heap_used": "1998078.7",
+        "heap_total": "2012496.0"
+      }
+    }
+  },
+  "90034e4d487e91927b381ace26de055c0149cc5f": {
+    "hash": "90034e4d487e91927b381ace26de055c0149cc5f",
+    "date": "2019-02-21 01:57:40+0100",
+    "message": "Merge pull request #9251 from ahocevar/cache-size",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.9",
+        "frame_max": "111.3",
+        "frame_total": "11192.7",
+        "heap_used": "1960827.0",
+        "heap_total": "1986384.0"
+      }
+    }
+  },
+  "386f2dc67c83d5dae6ed9790b67357e6c1c69798": {
+    "hash": "386f2dc67c83d5dae6ed9790b67357e6c1c69798",
+    "date": "2019-02-21 15:17:54+0100",
+    "message": "Merge pull request #9247 from openlayers/greenkeeper/copy-webpack-plugin-5.0.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.7",
+        "frame_max": "114.0",
+        "frame_total": "11739.4",
+        "heap_used": "2024599.5",
+        "heap_total": "2069328.0"
+      }
+    }
+  },
+  "6ce499532cd213013c4c07b761431ca635fcd108": {
+    "hash": "6ce499532cd213013c4c07b761431ca635fcd108",
+    "date": "2019-02-21 17:12:26+0100",
+    "message": "Merge pull request #9250 from ahocevar/clear-refresh",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.9",
+        "frame_max": "102.7",
+        "frame_total": "10854.2",
+        "heap_used": "1950029.9",
+        "heap_total": "1973584.0"
+      }
+    }
+  },
+  "767c7655240d774d9dccf389486f071976353dce": {
+    "hash": "767c7655240d774d9dccf389486f071976353dce",
+    "date": "2019-02-22 11:14:19+0100",
+    "message": "Merge pull request #9254 from petrsloup/tilejson-tilesize",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.8",
+        "frame_max": "110.3",
+        "frame_total": "11256.1",
+        "heap_used": "1982649.1",
+        "heap_total": "2046288.0"
+      }
+    }
+  },
+  "345607be28bcf8a9f1f7d1e590aa5b10aede00a9": {
+    "hash": "345607be28bcf8a9f1f7d1e590aa5b10aede00a9",
+    "date": "2019-02-22 15:14:35+0100",
+    "message": "Merge pull request #9256 from openlayers/greenkeeper/mocha-6.0.1",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.0",
+        "frame_max": "105.1",
+        "frame_total": "10412.8",
+        "heap_used": "1959461.4",
+        "heap_total": "1987408.0"
+      }
+    }
+  },
+  "73744de14e47dcdb7dc507b8f61e162cc9cc17ba": {
+    "hash": "73744de14e47dcdb7dc507b8f61e162cc9cc17ba",
+    "date": "2019-02-25 08:25:06+0100",
+    "message": "Merge pull request #9260 from fredj/rm_geom_param",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.8",
+        "frame_max": "102.5",
+        "frame_total": "11686.5",
+        "heap_used": "2021047.3",
+        "heap_total": "2054480.0"
+      }
+    }
+  },
+  "88760de64b16cd7770cbc9573e1cb55931690d56": {
+    "hash": "88760de64b16cd7770cbc9573e1cb55931690d56",
+    "date": "2019-02-25 10:43:54+0100",
+    "message": "Merge pull request #9264 from tpluscode/patch-1",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.8",
+        "frame_max": "110.3",
+        "frame_total": "11178.6",
+        "heap_used": "2006227.4",
+        "heap_total": "2049360.0"
+      }
+    }
+  },
+  "4e8522e696c8103f73ee03b86d429843322aae81": {
+    "hash": "4e8522e696c8103f73ee03b86d429843322aae81",
+    "date": "2019-02-25 15:43:05+0100",
+    "message": "Merge pull request #9261 from openlayers/greenkeeper/coveralls-3.0.3",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.4",
+        "frame_max": "98.5",
+        "frame_total": "10789.1",
+        "heap_used": "1949914.2",
+        "heap_total": "1982288.0"
+      }
+    }
+  },
+  "fb2ea83838eb1ab44c1d3a875e786d68c69547bb": {
+    "hash": "fb2ea83838eb1ab44c1d3a875e786d68c69547bb",
+    "date": "2019-02-25 20:51:51+0100",
+    "message": "Merge pull request #9268 from openlayers/greenkeeper/mocha-6.0.2",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.0",
+        "frame_max": "100.6",
+        "frame_total": "10621.8",
+        "heap_used": "2015258.5",
+        "heap_total": "2042192.0"
+      }
+    }
+  },
+  "3aa93014c00c4243b2067a0570f6350b4fb572c6": {
+    "hash": "3aa93014c00c4243b2067a0570f6350b4fb572c6",
+    "date": "2019-02-26 12:36:42+0100",
+    "message": "Merge pull request #9246 from openlayers/mobile-full-screen",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.8",
+        "frame_max": "95.3",
+        "frame_total": "10646.2",
+        "heap_used": "2015869.0",
+        "heap_total": "2029904.0"
+      }
+    }
+  },
+  "65d8b5f26bc61666f0d06c4110cfcf869334232a": {
+    "hash": "65d8b5f26bc61666f0d06c4110cfcf869334232a",
+    "date": "2019-02-27 10:15:16+0100",
+    "message": "Merge pull request #9273 from chrismayer/9269-fix-gfi-examples",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.3",
+        "frame_max": "109.4",
+        "frame_total": "10784.5",
+        "heap_used": "1984953.9",
+        "heap_total": "2013008.0"
+      }
+    }
+  },
+  "02f9411c6b27480f5eed9a69b96970790d7c0197": {
+    "hash": "02f9411c6b27480f5eed9a69b96970790d7c0197",
+    "date": "2019-02-27 14:03:38+0100",
+    "message": "Merge pull request #9275 from fredj/rm_setDeclutter",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.0",
+        "frame_max": "96.7",
+        "frame_total": "10887.3",
+        "heap_used": "2002247.6",
+        "heap_total": "2044752.0"
+      }
+    }
+  },
+  "cd17f4b0d68f10ed13069d97cccc16cca0c14b89": {
+    "hash": "cd17f4b0d68f10ed13069d97cccc16cca0c14b89",
+    "date": "2019-02-27 17:02:41+0100",
+    "message": "Merge pull request #9276 from fredj/graticule_cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.4",
+        "frame_max": "106.8",
+        "frame_total": "11351.2",
+        "heap_used": "2011851.7",
+        "heap_total": "2036048.0"
+      }
+    }
+  },
+  "6fd83b9a8e12ed442d1b9ad5d1470cbd92d61220": {
+    "hash": "6fd83b9a8e12ed442d1b9ad5d1470cbd92d61220",
+    "date": "2019-02-27 18:38:34+0100",
+    "message": "Merge pull request #9277 from ahocevar/rotate-token",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "24.9",
+        "frame_max": "102.2",
+        "frame_total": "10716.7",
+        "heap_used": "2011443.0",
+        "heap_total": "2037072.0"
+      }
+    }
+  },
+  "43bc53b20b761639378d20b681e476dbab3f236b": {
+    "hash": "43bc53b20b761639378d20b681e476dbab3f236b",
+    "date": "2019-02-28 10:49:35+0100",
+    "message": "Merge pull request #9270 from bvx89/patch-1",
+    "author_name": "Marc Jansen",
+    "author_email": "jansen@terrestris.de",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "24.0",
+        "frame_max": "136.5",
+        "frame_total": "12274.9",
+        "heap_used": "2004530.8",
+        "heap_total": "2026832.0"
+      }
+    }
+  },
+  "d99405feeb2926031782d6e8e022c9531675ef8d": {
+    "hash": "d99405feeb2926031782d6e8e022c9531675ef8d",
+    "date": "2019-02-28 12:59:17+0100",
+    "message": "Merge pull request #9278 from fredj/bing_imagerySet",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.2",
+        "frame_max": "105.2",
+        "frame_total": "11140.9",
+        "heap_used": "1973494.8",
+        "heap_total": "2010960.0"
+      }
+    }
+  },
+  "eea67868f741c7903ccbf642331b02bee4b5ed87": {
+    "hash": "eea67868f741c7903ccbf642331b02bee4b5ed87",
+    "date": "2019-02-28 14:24:54+0100",
+    "message": "Merge pull request #9279 from openlayers/greenkeeper/webpack-4.29.6",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.8",
+        "frame_max": "115.0",
+        "frame_total": "11287.5",
+        "heap_used": "2025498.9",
+        "heap_total": "2040656.0"
+      }
+    }
+  },
+  "d7905896f70c57c09e68c933d71db058c6d0c421": {
+    "hash": "d7905896f70c57c09e68c933d71db058c6d0c421",
+    "date": "2019-02-28 21:43:23-0700",
+    "message": "Merge pull request #9266 from tschaub/vector-image-options",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.8",
+        "frame_max": "112.1",
+        "frame_total": "11491.2",
+        "heap_used": "1938988.2",
+        "heap_total": "1982288.0"
+      }
+    }
+  },
+  "f1aca67882b141b9092ae0fc52d13fc954aa6d1a": {
+    "hash": "f1aca67882b141b9092ae0fc52d13fc954aa6d1a",
+    "date": "2019-03-01 09:56:49+0100",
+    "message": "Merge pull request #9280 from openlayers/greenkeeper/ol-mapbox-style-4.0.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.3",
+        "frame_max": "105.5",
+        "frame_total": "11377.3",
+        "heap_used": "1998082.3",
+        "heap_total": "2043728.0"
+      }
+    }
+  },
+  "d25a534dea360c8fd1c0a1b9fee44959090cdad0": {
+    "hash": "d25a534dea360c8fd1c0a1b9fee44959090cdad0",
+    "date": "2019-03-04 09:53:25+0100",
+    "message": "Merge pull request #9285 from openlayers/greenkeeper/globby-9.1.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.9",
+        "frame_max": "112.5",
+        "frame_total": "11633.1",
+        "heap_used": "2027124.4",
+        "heap_total": "2073936.0"
+      }
+    }
+  },
+  "1e06dd979e45b7e1829bfdd740822664fb7644de": {
+    "hash": "1e06dd979e45b7e1829bfdd740822664fb7644de",
+    "date": "2019-03-06 19:15:35+0100",
+    "message": "Merge pull request #9292 from KaiVolland/downgrade-puppeteer",
+    "author_name": "Marc Jansen",
+    "author_email": "jansen@terrestris.de",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.4",
+        "frame_max": "105.9",
+        "frame_total": "11701.4",
+        "heap_used": "2007122.4",
+        "heap_total": "2028880.0"
+      }
+    }
+  },
+  "a372ca0569f592536dd123c999ed17685547f6ba": {
+    "hash": "a372ca0569f592536dd123c999ed17685547f6ba",
+    "date": "2019-03-07 10:10:08+0100",
+    "message": "Merge pull request #9295 from ahocevar/update-ol-mapbox-style",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.4",
+        "frame_max": "127.2",
+        "frame_total": "11126.7",
+        "heap_used": "1975937.5",
+        "heap_total": "1996624.0"
+      }
+    }
+  },
+  "9c1c71b8e55cf2cb820cfceaec3f1e0cac80c3e3": {
+    "hash": "9c1c71b8e55cf2cb820cfceaec3f1e0cac80c3e3",
+    "date": "2019-03-09 08:00:35+0100",
+    "message": "Merge pull request #9306 from fredj/dispose_layer_renderer",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.0",
+        "frame_max": "111.8",
+        "frame_total": "11353.4",
+        "heap_used": "1971670.4",
+        "heap_total": "1989968.0"
+      }
+    }
+  },
+  "700205367806abe50382c2484e8718ab144f399a": {
+    "hash": "700205367806abe50382c2484e8718ab144f399a",
+    "date": "2019-03-09 10:07:16+0100",
+    "message": "Merge pull request #9307 from ahocevar/line-height",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.2",
+        "frame_max": "107.1",
+        "frame_total": "11119.6",
+        "heap_used": "1979301.9",
+        "heap_total": "2008912.0"
+      }
+    }
+  },
+  "feb1a9f31b5520d93529492cdebc191d80e8b0aa": {
+    "hash": "feb1a9f31b5520d93529492cdebc191d80e8b0aa",
+    "date": "2019-03-11 09:11:38+0100",
+    "message": "Merge pull request #9310 from fredj/stamen_transition",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "24.2",
+        "frame_max": "114.5",
+        "frame_total": "11152.1",
+        "heap_used": "1981553.8",
+        "heap_total": "2019664.0"
+      }
+    }
+  },
+  "4a67bd86a84c10ff8134574ae57355c7125144ac": {
+    "hash": "4a67bd86a84c10ff8134574ae57355c7125144ac",
+    "date": "2019-03-11 09:17:50+0100",
+    "message": "Merge pull request #9312 from bartvde/stamen-minzoom",
+    "author_name": "Bart van den Eijnden",
+    "author_email": "bartvde@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "23.2",
+        "frame_max": "110.1",
+        "frame_total": "11382.7",
+        "heap_used": "1978776.1",
+        "heap_total": "2009424.0"
+      }
+    }
+  },
+  "8a02a6f9f1d8f89afa1eb39f60b660cd45182389": {
+    "hash": "8a02a6f9f1d8f89afa1eb39f60b660cd45182389",
+    "date": "2019-03-11 09:28:48+0100",
+    "message": "Merge pull request #9308 from ahocevar/vectortile-loader-projection",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.6",
+        "frame_max": "109.1",
+        "frame_total": "11721.7",
+        "heap_used": "1976503.9",
+        "heap_total": "1985872.0"
+      }
+    }
+  },
+  "5a578c00a753cb4b73a7ccddeb79921db167ebe7": {
+    "hash": "5a578c00a753cb4b73a7ccddeb79921db167ebe7",
+    "date": "2019-03-11 10:17:32+0100",
+    "message": "Merge pull request #9314 from ahocevar/fix-transpile",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.0",
+        "frame_max": "100.9",
+        "frame_total": "12009.8",
+        "heap_used": "1997363.7",
+        "heap_total": "2025296.0"
+      }
+    }
+  },
+  "dee36639bd663e8bffab70e543ccf73894d8c855": {
+    "hash": "dee36639bd663e8bffab70e543ccf73894d8c855",
+    "date": "2019-03-11 10:18:00+0100",
+    "message": "Merge pull request #9313 from ahocevar/interpolate-tests",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.2",
+        "frame_max": "113.3",
+        "frame_total": "12085.4",
+        "heap_used": "2008910.3",
+        "heap_total": "2051920.0"
+      }
+    }
+  },
+  "3282c74de6fa98b902ac22a4ec5bb7c0946b0df1": {
+    "hash": "3282c74de6fa98b902ac22a4ec5bb7c0946b0df1",
+    "date": "2019-03-11 10:29:17+0100",
+    "message": "Merge pull request #9311 from openlayers/greenkeeper/pbf-3.2.0",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.0",
+        "frame_max": "109.5",
+        "frame_total": "11673.2",
+        "heap_used": "1996794.1",
+        "heap_total": "2006864.0"
+      }
+    }
+  },
+  "dfabcc0c66ee4af772e6a4ab4ffb91c126de0c96": {
+    "hash": "dfabcc0c66ee4af772e6a4ab4ffb91c126de0c96",
+    "date": "2019-03-11 10:38:31+0100",
+    "message": "Merge pull request #9137 from jahow/add-view-constrain-extent-2",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.1",
+        "frame_max": "101.8",
+        "frame_total": "11674.8",
+        "heap_used": "1958787.5",
+        "heap_total": "1984336.0"
+      }
+    }
+  },
+  "c0d4cdbabf69cd12a38fad0bf3e58d2cc1609257": {
+    "hash": "c0d4cdbabf69cd12a38fad0bf3e58d2cc1609257",
+    "date": "2019-03-11 14:37:43+0100",
+    "message": "Merge pull request #9315 from fredj/f9290",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.8",
+        "frame_max": "104.8",
+        "frame_total": "11521.6",
+        "heap_used": "2018296.7",
+        "heap_total": "2031440.0"
+      }
+    }
+  },
+  "b54b7c59896c6a03ef8db5110108266ad7da55bf": {
+    "hash": "b54b7c59896c6a03ef8db5110108266ad7da55bf",
+    "date": "2019-03-11 15:30:01+0100",
+    "message": "Merge pull request #9305 from KaiVolland/fix-scaleline-test",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.2",
+        "frame_max": "102.8",
+        "frame_total": "11821.4",
+        "heap_used": "2006653.0",
+        "heap_total": "2026320.0"
+      }
+    }
+  },
+  "c321c904972f19b7dc4d5825740e43ee14ff6242": {
+    "hash": "c321c904972f19b7dc4d5825740e43ee14ff6242",
+    "date": "2019-03-12 08:31:30+0100",
+    "message": "Merge pull request #9300 from fredj/f9299",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.2",
+        "frame_max": "99.8",
+        "frame_total": "11698.3",
+        "heap_used": "2015398.3",
+        "heap_total": "2051408.0"
+      }
+    }
+  },
+  "c573d53297b7d21f1ae66690c6b515bce61dae61": {
+    "hash": "c573d53297b7d21f1ae66690c6b515bce61dae61",
+    "date": "2019-03-12 04:21:54-0600",
+    "message": "Merge pull request #9319 from tschaub/licensed",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.6",
+        "frame_max": "102.8",
+        "frame_total": "11657.1",
+        "heap_used": "1986500.1",
+        "heap_total": "1996112.0"
+      }
+    }
+  },
+  "17b37a90da545dcf1f04548186812699d0efcb71": {
+    "hash": "17b37a90da545dcf1f04548186812699d0efcb71",
+    "date": "2019-03-12 15:26:26+0100",
+    "message": "Merge pull request #9321 from KaiVolland/inheritdoc",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.5",
+        "frame_max": "99.5",
+        "frame_total": "11857.3",
+        "heap_used": "2014807.8",
+        "heap_total": "2030416.0"
+      }
+    }
+  },
+  "cfc79254d0bfba6e6f02f473d3653694a0c52207": {
+    "hash": "cfc79254d0bfba6e6f02f473d3653694a0c52207",
+    "date": "2019-03-13 08:15:25+0100",
+    "message": "Merge pull request #9322 from ahocevar/render-to-source-resolution",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.1",
+        "frame_max": "99.9",
+        "frame_total": "11740.3",
+        "heap_used": "2016189.9",
+        "heap_total": "2030416.0"
+      }
+    }
+  },
+  "d75caaa3df0bf06a11e9e667bf5d383d5c0bb9e4": {
+    "hash": "d75caaa3df0bf06a11e9e667bf5d383d5c0bb9e4",
+    "date": "2019-03-13 08:17:24+0100",
+    "message": "Merge pull request #9318 from ahocevar/smart-cache-size",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.2",
+        "frame_max": "105.1",
+        "frame_total": "11729.5",
+        "heap_used": "2010201.8",
+        "heap_total": "2020176.0"
+      }
+    }
+  },
+  "df3d771c53f410372ff00cb3d9c5233ab192c54c": {
+    "hash": "df3d771c53f410372ff00cb3d9c5233ab192c54c",
+    "date": "2019-03-13 12:16:23+0100",
+    "message": "Merge pull request #9320 from RobertOrthofer/master",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "22.1",
+        "frame_max": "101.3",
+        "frame_total": "11963.7",
+        "heap_used": "2062424.7",
+        "heap_total": "2087760.0"
+      }
+    }
+  },
+  "d6f7533c76d4c6de778855a3d98425727b775b8f": {
+    "hash": "d6f7533c76d4c6de778855a3d98425727b775b8f",
+    "date": "2019-03-14 09:12:19+0100",
+    "message": "Merge pull request #9325 from ahocevar/no-round",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.7",
+        "frame_max": "96.8",
+        "frame_total": "11352.9",
+        "heap_used": "1996632.3",
+        "heap_total": "2006352.0"
+      }
+    }
+  },
+  "7896fa894d9fae9b958dc124b52111a04e5b42eb": {
+    "hash": "7896fa894d9fae9b958dc124b52111a04e5b42eb",
+    "date": "2019-03-14 09:17:28+0100",
+    "message": "Merge pull request #9328 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.2",
+        "frame_max": "97.3",
+        "frame_total": "11263.3",
+        "heap_used": "2006005.1",
+        "heap_total": "2016080.0"
+      }
+    }
+  },
+  "de7afee96d0a15cb0cd805a6439fdcd2b09c9fdd": {
+    "hash": "de7afee96d0a15cb0cd805a6439fdcd2b09c9fdd",
+    "date": "2019-03-14 11:04:28+0100",
+    "message": "Merge pull request #9329 from fredj/cluster_refresh",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.3",
+        "frame_max": "99.9",
+        "frame_total": "11312.9",
+        "heap_used": "1974821.3",
+        "heap_total": "2003280.0"
+      }
+    }
+  },
+  "1637cffbe974ce5d2b3ace09f754565be0daaf28": {
+    "hash": "1637cffbe974ce5d2b3ace09f754565be0daaf28",
+    "date": "2019-03-14 16:24:24+0100",
+    "message": "Merge pull request #9335 from openlayers/codesandbox_template",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.4",
+        "frame_max": "100.5",
+        "frame_total": "11470.2",
+        "heap_used": "2006599.4",
+        "heap_total": "2016080.0"
+      }
+    }
+  },
+  "75d9ade613cfca7f53c4aeede8738526be7e3c4f": {
+    "hash": "75d9ade613cfca7f53c4aeede8738526be7e3c4f",
+    "date": "2019-03-15 15:15:59+0100",
+    "message": "Merge pull request #9337 from fredj/codesandbox_div_size",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.2",
+        "frame_max": "101.9",
+        "frame_total": "11596.5",
+        "heap_used": "2010543.9",
+        "heap_total": "2019152.0"
+      }
+    }
+  },
+  "9284ba47a49a0283efe85bc97da3e67b7ca4149d": {
+    "hash": "9284ba47a49a0283efe85bc97da3e67b7ca4149d",
+    "date": "2019-03-17 11:46:08+0100",
+    "message": "Merge pull request #9341 from ahocevar/remove-unused",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.9",
+        "frame_max": "125.4",
+        "frame_total": "12115.1",
+        "heap_used": "2015808.3",
+        "heap_total": "2031440.0"
+      }
+    }
+  },
+  "3f7c52c29f0fd667ee3356300cecfc53e88ff48a": {
+    "hash": "3f7c52c29f0fd667ee3356300cecfc53e88ff48a",
+    "date": "2019-03-17 11:53:10+0100",
+    "message": "Merge pull request #9342 from openlayers/greenkeeper/handlebars-4.1.1",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.4",
+        "frame_max": "96.2",
+        "frame_total": "11593.9",
+        "heap_used": "2011079.6",
+        "heap_total": "2044752.0"
+      }
+    }
+  },
+  "e12a0ea0ff7066af330aa486516e0877a0b0478f": {
+    "hash": "e12a0ea0ff7066af330aa486516e0877a0b0478f",
+    "date": "2019-03-18 11:53:01+0100",
+    "message": "Merge pull request #9345 from fredj/devDependencies",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.9",
+        "frame_max": "105.5",
+        "frame_total": "11696.8",
+        "heap_used": "2009708.3",
+        "heap_total": "2035024.0"
+      }
+    }
+  },
+  "84bf801b5267201c1ca5b33d390c34e8f0db6d3b": {
+    "hash": "84bf801b5267201c1ca5b33d390c34e8f0db6d3b",
+    "date": "2019-03-18 16:12:28+0100",
+    "message": "Merge pull request #9346 from fredj/cleanup",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "21.3",
+        "frame_max": "122.4",
+        "frame_total": "11854.2",
+        "heap_used": "2044221.9",
+        "heap_total": "2071376.0"
+      }
+    }
+  },
+  "458f1d0f643538d9faf09ae43f8440babd3f82fc": {
+    "hash": "458f1d0f643538d9faf09ae43f8440babd3f82fc",
+    "date": "2019-03-19 15:56:49+0100",
+    "message": "Merge pull request #9351 from ahocevar/default-styles",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "17.7",
+        "frame_max": "98.2",
+        "frame_total": "11618.9",
+        "heap_used": "1959738.1",
+        "heap_total": "1975120.0"
+      }
+    }
+  },
+  "ad5c9ac5897896db76617f664ac2770778d677d2": {
+    "hash": "ad5c9ac5897896db76617f664ac2770778d677d2",
+    "date": "2019-03-19 16:21:51+0100",
+    "message": "Merge pull request #9350 from fredj/cleanup_examples",
+    "author_name": "Frédéric Junod",
+    "author_email": "frederic.junod@camptocamp.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.0",
+        "frame_max": "105.7",
+        "frame_total": "11795.8",
+        "heap_used": "2015202.8",
+        "heap_total": "2024784.0"
+      }
+    }
+  },
+  "c4279ff6655e7013458486bb074fdf22250317c2": {
+    "hash": "c4279ff6655e7013458486bb074fdf22250317c2",
+    "date": "2019-03-20 08:34:54-0700",
+    "message": "Merge pull request #9333 from KaiVolland/unify-rendering-tests",
+    "author_name": "Tim Schaub",
+    "author_email": "tschaub@users.noreply.github.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.0",
+        "frame_max": "97.2",
+        "frame_total": "11071.8",
+        "heap_used": "2017568.1",
+        "heap_total": "2026832.0"
+      }
+    }
+  },
+  "447117be4f44f1535ba073e4e889b0d556225517": {
+    "hash": "447117be4f44f1535ba073e4e889b0d556225517",
+    "date": "2019-03-21 19:12:41+0100",
+    "message": "Merge pull request #9361 from lutzhelm/9343-zdirection",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "20.4",
+        "frame_max": "90.2",
+        "frame_total": "11062.2",
+        "heap_used": "2031658.8",
+        "heap_total": "2057040.0"
+      }
+    }
+  },
+  "927a98ac5be2e7969257f14b373844f81748c8c3": {
+    "hash": "927a98ac5be2e7969257f14b373844f81748c8c3",
+    "date": "2019-03-22 15:30:56+0100",
+    "message": "Merge pull request #9365 from jahow/patch-1",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.1",
+        "frame_max": "109.9",
+        "frame_total": "11549.2",
+        "heap_used": "1967153.8",
+        "heap_total": "1975632.0"
+      }
+    }
+  },
+  "1be6050da84220243c67383c1bbf8b02a564d21c": {
+    "hash": "1be6050da84220243c67383c1bbf8b02a564d21c",
+    "date": "2019-03-25 12:10:57+0100",
+    "message": "Merge pull request #9360 from KaiVolland/9281-rastersouce-attributions",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "19.9",
+        "frame_max": "102.4",
+        "frame_total": "11578.6",
+        "heap_used": "2006806.1",
+        "heap_total": "2037072.0"
+      }
+    }
+  },
+  "f32e097051e4594c71cab193ab245790e928f0e6": {
+    "hash": "f32e097051e4594c71cab193ab245790e928f0e6",
+    "date": "2019-03-25 12:18:37+0100",
+    "message": "Merge pull request #9364 from KaiVolland/clip-rendering",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.1",
+        "frame_max": "97.9",
+        "frame_total": "11130.1",
+        "heap_used": "1962151.8",
+        "heap_total": "1979728.0"
+      }
+    }
+  },
+  "a95481a8fe6df35f65ff02e50a77e79a7fb68a4f": {
+    "hash": "a95481a8fe6df35f65ff02e50a77e79a7fb68a4f",
+    "date": "2019-03-25 14:33:25+0100",
+    "message": "Merge pull request #9374 from jahow/fix-initialzoom",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "18.0",
+        "frame_max": "114.0",
+        "frame_total": "11960.2",
+        "heap_used": "1977614.6",
+        "heap_total": "2019152.0"
+      }
+    }
+  },
+  "3a7f9d93f4c9576dcee08f09bf72c9de9dafcdb0": {
+    "hash": "3a7f9d93f4c9576dcee08f09bf72c9de9dafcdb0",
+    "date": "2019-03-25 17:44:31+0100",
+    "message": "Merge pull request #9357 from ahocevar/vectortile-view-resolution-2",
+    "author_name": "Andreas Hocevar",
+    "author_email": "andreas.hocevar@gmail.com",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "26.8",
+        "frame_max": "144.1",
+        "frame_total": "13603.7",
+        "heap_used": "1991158.2",
+        "heap_total": "2002256.0"
+      }
+    }
+  },
+  "061965ecb793104868ac26386e536c3e806f5f80": {
+    "hash": "061965ecb793104868ac26386e536c3e806f5f80",
+    "date": "2019-03-25 22:08:05+0100",
+    "message": "Merge pull request #9362 from KaiVolland/text-rendering (HEAD, origin/master, origin/HEAD, master)",
+    "author_name": "Marc Jansen",
+    "author_email": "jansen@terrestris.de",
+    "benchmarks": {
+      "./benchmarks/vectortile-animation/main.js": {
+        "frame_avg": "26.6",
+        "frame_max": "156.5",
+        "frame_total": "13912.3",
+        "heap_used": "1957841.3",
+        "heap_total": "1986384.0"
+      }
+    }
+  }
+}
